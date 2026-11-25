@@ -1,0 +1,118 @@
+{
+  "source": {
+    "type": "capture",
+    "url": "https://example.com/",
+    "file": "source/example-com-1200x700.png",
+    "viewport": {
+      "w": 1200,
+      "h": 700,
+      "dpr": 2
+    },
+    "colorScheme": "dark",
+    "selectors": {
+      "p": "p",
+      "icon": "svg, img"
+    }
+  },
+  "treat": {
+    "preset": "capture-dark@1",
+    "crop": {
+      "x0": 0.3,
+      "y0": 0.155,
+      "x1": 0.7,
+      "y1": 0.43
+    },
+    "pad": {
+      "w": 960,
+      "h": 1136,
+      "ox": 0,
+      "oy": 60,
+      "rgb": [
+        34,
+        34,
+        34
+      ]
+    }
+  },
+  "manifest": {
+    "id": "capture-example-com",
+    "version": 1,
+    "kind": "capture",
+    "sourceClass": "c",
+    "title": "example.com page capture (desktop)",
+    "depicts": "The real example.com page: a small book icon and the line 'This domain is for use in documentation examples\u2026'.",
+    "tags": [
+      "web",
+      "page",
+      "website",
+      "browser",
+      "example",
+      "https",
+      "capture"
+    ],
+    "families": [
+      "security",
+      "network"
+    ],
+    "licence": {
+      "id": "example-domain",
+      "author": "IANA (page text); screen capture by Reel Studio",
+      "sourceUrl": "https://example.com/",
+      "retrieved": "2026-10-31",
+      "modified": true,
+      "changes": "cropped to the content and padded with the page's own background"
+    },
+    "provenance": "screen-capture",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": []
+    },
+    "people": false,
+    "review": {
+      "people": {
+        "by": "W3a agent",
+        "date": "2026-10-31",
+        "file": "plate.png",
+        "result": "pass",
+        "note": "text page"
+      },
+      "brandMarks": {
+        "by": "W3a agent",
+        "date": "2026-10-31",
+        "file": "plate.png",
+        "result": "pass",
+        "note": "plain text page, no logos"
+      }
+    },
+    "anchors": {},
+    "treatment": {
+      "preset": "capture-dark@1",
+      "crop": {
+        "x0": 0.3,
+        "y0": 0.155,
+        "x1": 0.7,
+        "y1": 0.43
+      },
+      "extra": "padded to 960x1136 (the BrowserWindow page area) with the page's own #222222"
+    },
+    "caveats": [
+      "captured TLS fields are data only; drawn popovers use the generic issuer (D1 #2c)",
+      "the page says it is a documentation example, not a service: never zoom into its text as 'your bank/shop'"
+    ],
+    "defaultAnchor": "text"
+  },
+  "captureAnchors": {
+    "text": {
+      "sel": "p",
+      "label": "the page text",
+      "physical": "the words on the web page (what HTTPS keeps sealed on the way)"
+    },
+    "icon": {
+      "sel": "icon",
+      "label": "the page icon",
+      "physical": "a small picture on the page"
+    }
+  }
+}

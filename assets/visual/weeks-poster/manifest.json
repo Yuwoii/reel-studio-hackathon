@@ -1,0 +1,207 @@
+{
+  "id": "weeks-poster",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Life-in-weeks wall poster (drawn)",
+  "depicts": "Drawn printed life-in-weeks poster: one box per week, one row per year; shares of a life filled, you-are-here, the empty boxes left.",
+  "tags": [
+    "life-in-weeks",
+    "memento-mori",
+    "weeks",
+    "lifetime",
+    "calendar",
+    "poster",
+    "time",
+    "mortality"
+  ],
+  "families": [
+    "data"
+  ],
+  "component": "WeeksPoster",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-11-10",
+    "modified": false,
+    "changes": "source: remotion/v3/components/WeeksPoster.tsx (meta src/v3/components-meta/WeeksPoster.ts); a generic week-grid calendar (the life-in-weeks idea was popularised by Tim Urban, Wait But Why, 2014): no title, layout text, colours or branding copied"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic calendar grid, no product or publisher marks"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "poster": {
+      "label": "the life-in-weeks poster",
+      "physical": "a printed poster: every week of a 90-year life as one box",
+      "at": {
+        "x": 0.4956,
+        "y": 0.4975
+      },
+      "r": 0.5
+    },
+    "fit": {
+      "label": "the whole poster",
+      "physical": "camera landing that frames the whole poster above the captions (fill 0.567)",
+      "at": {
+        "x": 0.5,
+        "y": 0.5876
+      },
+      "r": 0.5
+    },
+    "grid": {
+      "label": "the grid of weeks",
+      "physical": "every week of a 90-year life, one box each (4,680)",
+      "at": {
+        "x": 0.5194,
+        "y": 0.5408
+      },
+      "r": 0.5
+    },
+    "here": {
+      "label": "you are here",
+      "physical": "the week you are in at age 30: box 1,561",
+      "at": {
+        "x": 0.1086,
+        "y": 0.4047
+      },
+      "r": 0.02
+    },
+    "lived": {
+      "label": "the weeks already lived",
+      "physical": "1,560 weeks already lived, greyed",
+      "at": {
+        "x": 0.5194,
+        "y": 0.2534
+      },
+      "r": 0.4172
+    },
+    "empty": {
+      "label": "the boxes still empty",
+      "physical": "2,808 boxes still empty",
+      "at": {
+        "x": 0.5194,
+        "y": 0.7114
+      },
+      "r": 0.4611
+    },
+    "age10": {
+      "label": "age 10",
+      "physical": "the row of weeks you live at 10",
+      "at": {
+        "x": 0.1111,
+        "y": 0.2131
+      },
+      "r": 0.0244
+    },
+    "age20": {
+      "label": "age 20",
+      "physical": "the row of weeks you live at 20",
+      "at": {
+        "x": 0.1111,
+        "y": 0.3089
+      },
+      "r": 0.0244
+    },
+    "age30": {
+      "label": "age 30",
+      "physical": "the row of weeks you live at 30",
+      "at": {
+        "x": 0.1111,
+        "y": 0.4047
+      },
+      "r": 0.0244
+    },
+    "age40": {
+      "label": "age 40",
+      "physical": "the row of weeks you live at 40",
+      "at": {
+        "x": 0.1111,
+        "y": 0.5005
+      },
+      "r": 0.0244
+    },
+    "age50": {
+      "label": "age 50",
+      "physical": "the row of weeks you live at 50",
+      "at": {
+        "x": 0.1111,
+        "y": 0.5963
+      },
+      "r": 0.0244
+    },
+    "age60": {
+      "label": "age 60",
+      "physical": "the row of weeks you live at 60",
+      "at": {
+        "x": 0.1111,
+        "y": 0.6921
+      },
+      "r": 0.0244
+    },
+    "age70": {
+      "label": "age 70",
+      "physical": "the row of weeks you live at 70",
+      "at": {
+        "x": 0.1111,
+        "y": 0.7879
+      },
+      "r": 0.0244
+    },
+    "age80": {
+      "label": "age 80",
+      "physical": "the row of weeks you live at 80",
+      "at": {
+        "x": 0.1111,
+        "y": 0.8837
+      },
+      "r": 0.0244
+    },
+    "counter": {
+      "label": "weeks",
+      "physical": "the poster's counter: the number of boxes it names, in step with the boxes drawn",
+      "at": {
+        "x": 0.8,
+        "y": 0.0383
+      },
+      "r": 0.1511
+    },
+    "legend": {
+      "label": "the legend",
+      "physical": "one colour chip per share, with its name",
+      "at": {
+        "x": 0.4956,
+        "y": 0.0853
+      },
+      "r": 0.4556
+    },
+    "seg1": {
+      "label": "sleep",
+      "physical": "sleep: 1,352 boxes = 26 years, packed together from the first box",
+      "at": {
+        "x": 0.5194,
+        "y": 0.2355
+      },
+      "r": 0.4172
+    },
+    "seg2": {
+      "label": "work",
+      "physical": "work: 520 boxes = 10 years, packed together from the first box",
+      "at": {
+        "x": 0.5194,
+        "y": 0.4061
+      },
+      "r": 0.4172
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": []
+}

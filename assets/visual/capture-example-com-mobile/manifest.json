@@ -1,0 +1,120 @@
+{
+  "id": "capture-example-com-mobile",
+  "version": 2,
+  "kind": "capture",
+  "sourceClass": "c",
+  "title": "example.com page capture (phone)",
+  "depicts": "The real example.com page as a phone shows it: book icon and the English paragraph (cropped above the translation).",
+  "tags": [
+    "web",
+    "page",
+    "website",
+    "browser",
+    "example",
+    "https",
+    "capture"
+  ],
+  "families": [
+    "security",
+    "network"
+  ],
+  "file": {
+    "path": "plate.png",
+    "w": 784,
+    "h": 1664,
+    "bytes": 31119,
+    "sha256": "9411c23d7ea01e212cf39a3d1a397739b05fe223beaa4bea69cd97a0867827d0"
+  },
+  "licence": {
+    "id": "example-domain",
+    "url": "https://www.iana.org/help/example-domains",
+    "author": "IANA (page text); screen capture by Reel Studio",
+    "sourceUrl": "https://example.com/",
+    "retrieved": "2026-10-31",
+    "modified": true,
+    "changes": "cropped above the second-language paragraph and padded with the page's own background",
+    "sourceSha256": "d3bef45665bdc131ef8dd23ff9c0175add83ba7386a25b8268cbc1bec71753e0"
+  },
+  "provenance": "screen-capture",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": []
+  },
+  "people": false,
+  "review": {
+    "people": {
+      "by": "W3a agent",
+      "date": "2026-10-31",
+      "file": "plate.png",
+      "result": "pass",
+      "note": "text page"
+    },
+    "brandMarks": {
+      "by": "W3a agent",
+      "date": "2026-10-31",
+      "file": "plate.png",
+      "result": "pass",
+      "note": "plain text page, no logos"
+    }
+  },
+  "anchors": {
+    "text": {
+      "label": "the page text",
+      "physical": "the words on the web page (what HTTPS keeps sealed on the way)",
+      "at": {
+        "x": 0.5,
+        "y": 0.3584
+      },
+      "box": {
+        "x0": 0.0842,
+        "y0": 0.2969,
+        "x1": 0.9158,
+        "y1": 0.4199
+      }
+    },
+    "icon": {
+      "label": "the page icon",
+      "physical": "a small picture on the page",
+      "at": {
+        "x": 0.5,
+        "y": 0.2512
+      },
+      "box": {
+        "x0": 0.4439,
+        "y0": 0.2248,
+        "x1": 0.5561,
+        "y1": 0.2776
+      }
+    }
+  },
+  "defaultAnchor": "text",
+  "treatment": {
+    "preset": "capture-dark@1",
+    "crop": {
+      "x0": 0,
+      "y0": 0,
+      "x1": 1,
+      "y1": 0.41
+    },
+    "extra": "top half, padded to 784x1664 (2x the Phone screen) with #222222"
+  },
+  "tone": {
+    "meanLuma": 0.155,
+    "p99Luma": 0.714,
+    "meanSat": 0.005
+  },
+  "captured": {
+    "url": "https://example.com/",
+    "capturedAt": "2026-10-31T19:30:56.385Z",
+    "status": 200,
+    "protocol": "TLS 1.3",
+    "subject": "example.com",
+    "validTo": "2026-12-25"
+  },
+  "caveats": [
+    "captured TLS fields are data only; drawn popovers use the generic issuer (D1 #2c)",
+    "the page says it is a documentation example, not a service: never zoom into its text as 'your bank/shop'"
+  ]
+}

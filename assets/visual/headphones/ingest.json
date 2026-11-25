@@ -1,0 +1,50 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "headphones",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "Headphones",
+    "title": "Noise-cancelling headphones (drawn)",
+    "depicts": "Drawn over-ear headphones: a pair, or one cup cut open showing the outer mic, speaker, cushion and ear.",
+    "tags": [
+      "headphones",
+      "noise",
+      "anc",
+      "noise-cancelling",
+      "microphone",
+      "speaker",
+      "ear",
+      "sound"
+    ],
+    "families": [
+      "science"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-10-31",
+      "modified": false,
+      "changes": "source: remotion/v3/components/Headphones.tsx (meta src/v3/components-meta/Headphones.ts)"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic design, no product marks (D1 #2d)"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": [
+      "the cushion blocks high hiss by itself; the cancelling works on the low rumble"
+    ]
+  }
+}

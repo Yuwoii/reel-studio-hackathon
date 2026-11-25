@@ -1,0 +1,48 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "weeks-poster",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "WeeksPoster",
+    "title": "Life-in-weeks wall poster (drawn)",
+    "depicts": "Drawn printed life-in-weeks poster: one box per week, one row per year; shares of a life filled, you-are-here, the empty boxes left.",
+    "tags": [
+      "life-in-weeks",
+      "memento-mori",
+      "weeks",
+      "lifetime",
+      "calendar",
+      "poster",
+      "time",
+      "mortality"
+    ],
+    "families": [
+      "data"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-11-10",
+      "modified": false,
+      "changes": "source: remotion/v3/components/WeeksPoster.tsx (meta src/v3/components-meta/WeeksPoster.ts); a generic week-grid calendar (the life-in-weeks idea was popularised by Tim Urban, Wait But Why, 2014): no title, layout text, colours or branding copied"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic calendar grid, no product or publisher marks"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": []
+  }
+}

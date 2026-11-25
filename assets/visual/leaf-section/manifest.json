@@ -1,0 +1,184 @@
+{
+  "id": "leaf-section",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Leaf / cactus stem cross-section with a pore (drawn)",
+  "depicts": "Drawn leaf / cactus-stem cross-section: a pore between guard cells, CO2 in, water vapour out; C3 tall cells, C4 rings round a vein, CAM night store.",
+  "tags": [
+    "plant",
+    "leaf",
+    "pore",
+    "stomata",
+    "stoma",
+    "photosynthesis",
+    "c3",
+    "c4",
+    "cam",
+    "cactus",
+    "carbon-dioxide",
+    "water"
+  ],
+  "families": [
+    "science"
+  ],
+  "component": "LeafSection",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-11-10",
+    "modified": false,
+    "changes": "source: remotion/v3/components/LeafSection.tsx (meta src/v3/components-meta/LeafSection.ts); a generic textbook-style leaf section drawn in-house, not traced from any figure"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic botanical illustration, no marks"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "leaf": {
+      "label": "the leaf, cut open",
+      "physical": "a leaf cut through to show the cells inside (illustration, not to scale)",
+      "at": {
+        "x": 0.5,
+        "y": 0.4394
+      },
+      "r": 0.4889
+    },
+    "pore": {
+      "label": "a pore (stoma)",
+      "physical": "a tiny opening on the underside: carbon dioxide gets in and water vapour gets out through it",
+      "at": {
+        "x": 0.5,
+        "y": 0.7596
+      },
+      "r": 0.0667
+    },
+    "guards": {
+      "label": "the guard cells",
+      "physical": "two cells either side of the pore that open and close it",
+      "at": {
+        "x": 0.5,
+        "y": 0.7596
+      },
+      "r": 0.1
+    },
+    "inside": {
+      "label": "the air inside",
+      "physical": "the air space just inside the pore",
+      "at": {
+        "x": 0.5,
+        "y": 0.7038
+      },
+      "r": 0.0556
+    },
+    "co2.in": {
+      "label": "carbon dioxide coming in",
+      "physical": "carbon dioxide from the air, drifting in through the pore",
+      "at": {
+        "x": 0.3333,
+        "y": 0.8942
+      },
+      "r": 0.0889
+    },
+    "water.out": {
+      "label": "water vapour going out",
+      "physical": "water vapour leaving through the same pore",
+      "at": {
+        "x": 0.6778,
+        "y": 0.8942
+      },
+      "r": 0.0889
+    },
+    "skin": {
+      "label": "the waxy skin",
+      "physical": "the top skin with its waxy layer (keeps water in)",
+      "at": {
+        "x": 0.5,
+        "y": 0.1154
+      },
+      "r": 0.4667
+    },
+    "outer": {
+      "label": "the outer cells",
+      "physical": "they grab the carbon dioxide first and pass it inward",
+      "at": {
+        "x": 0.5,
+        "y": 0.4423
+      },
+      "r": 0.3356
+    },
+    "outer.cell": {
+      "label": "an outer cell",
+      "physical": "grabs carbon dioxide and passes it inward as a 4-carbon acid",
+      "at": {
+        "x": 0.78,
+        "y": 0.4423
+      },
+      "r": 0.0556
+    },
+    "inner": {
+      "label": "the inner cells",
+      "physical": "the ring round the vein where the carbon dioxide is handed over and the sugar is made",
+      "at": {
+        "x": 0.5,
+        "y": 0.4423
+      },
+      "r": 0.2022
+    },
+    "inner.cell": {
+      "label": "an inner cell",
+      "physical": "gets the carbon dioxide handed in and makes the sugar",
+      "at": {
+        "x": 0.6458,
+        "y": 0.4013
+      },
+      "r": 0.0489
+    },
+    "vein": {
+      "label": "the vein",
+      "physical": "carries water in and the sugar away",
+      "at": {
+        "x": 0.5,
+        "y": 0.4423
+      },
+      "r": 0.0733
+    },
+    "handoff": {
+      "label": "the handoff",
+      "physical": "the outer cells passing the carbon dioxide inward (as a 4-carbon acid)",
+      "at": {
+        "x": 0.64,
+        "y": 0.4423
+      },
+      "r": 0.0778
+    },
+    "sugar": {
+      "label": "where the sugar is made",
+      "physical": "the inner ring round the vein",
+      "at": {
+        "x": 0.5,
+        "y": 0.4423
+      },
+      "r": 0.2022
+    },
+    "sky": {
+      "label": "day or night",
+      "physical": "the sun by day, the moon at night",
+      "at": {
+        "x": 0.9022,
+        "y": 0.05
+      },
+      "r": 0.0489
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": []
+}

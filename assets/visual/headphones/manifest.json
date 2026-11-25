@@ -1,0 +1,101 @@
+{
+  "id": "headphones",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Noise-cancelling headphones (drawn)",
+  "depicts": "Drawn over-ear headphones: a pair, or one cup cut open showing the outer mic, speaker, cushion and ear.",
+  "tags": [
+    "headphones",
+    "noise",
+    "anc",
+    "noise-cancelling",
+    "microphone",
+    "speaker",
+    "ear",
+    "sound"
+  ],
+  "families": [
+    "science"
+  ],
+  "component": "Headphones",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-10-31",
+    "modified": false,
+    "changes": "source: remotion/v3/components/Headphones.tsx (meta src/v3/components-meta/Headphones.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic design, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "shell": {
+      "label": "the ear cup",
+      "physical": "the cup shell (cut open here)",
+      "at": {
+        "x": 0.3947,
+        "y": 0.5
+      },
+      "r": 0.3026
+    },
+    "mic": {
+      "label": "the outer microphone",
+      "physical": "listens to the noise outside the cup",
+      "at": {
+        "x": 0.3053,
+        "y": 0.3421
+      },
+      "r": 0.0316
+    },
+    "driver": {
+      "label": "the speaker",
+      "physical": "the driver: plays music, and the opposite (inverted) noise wave",
+      "at": {
+        "x": 0.5526,
+        "y": 0.5
+      },
+      "r": 0.0921
+    },
+    "cushion": {
+      "label": "the cushion",
+      "physical": "seals around the ear; blocks the high hiss passively",
+      "at": {
+        "x": 0.7079,
+        "y": 0.5
+      },
+      "r": 0.0789
+    },
+    "ear": {
+      "label": "your ear",
+      "physical": "hears what is left: the residual",
+      "at": {
+        "x": 0.8553,
+        "y": 0.5
+      },
+      "r": 0.1053
+    },
+    "noise": {
+      "label": "the outside noise",
+      "physical": "low rumble arriving from outside",
+      "at": {
+        "x": 0.1447,
+        "y": 0.5
+      },
+      "r": 0.1184
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": [
+    "the cushion blocks high hiss by itself; the cancelling works on the low rumble"
+  ]
+}

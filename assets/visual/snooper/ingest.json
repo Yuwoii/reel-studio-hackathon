@@ -1,0 +1,50 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "snooper",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "Snooper",
+    "title": "Snooper with magnifier (drawn person)",
+    "depicts": "A drawn person in a hood holding a magnifying glass up to peek at passing data.",
+    "tags": [
+      "snooper",
+      "eavesdropper",
+      "attacker",
+      "spy",
+      "person",
+      "magnifier",
+      "privacy"
+    ],
+    "families": [
+      "security",
+      "network"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-11-02",
+      "modified": false,
+      "changes": "source: remotion/v3/components/Snooper.tsx (meta src/v3/components-meta/Snooper.ts)"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic design, no product marks (D1 #2d)"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": [
+      "a generic drawn figure, not a real person"
+    ]
+  }
+}

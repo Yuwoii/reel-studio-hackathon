@@ -1,0 +1,50 @@
+<!doctype html>
+<!-- Reel Studio own-work neutral page (W3a): a generic sign-in page for the reserved name example.com. Captured by
+     scripts/v3/assets/ingest.ts (Playwright, file://) into plate.png. No real brand, product or person. Font: Inter (OFL,
+     public/fonts). Edit this file + bump the manifest version to change the plate. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=960">
+<title>Sign in · Example</title>
+<style>
+  @font-face { font-family: "Inter"; src: url("../../../public/fonts/Inter-Variable.ttf"); font-weight: 100 900; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 960px; height: 1136px; background: #1c1c1e; color: #ececec; font-family: "Inter", sans-serif; }
+  nav { height: 96px; display: flex; align-items: center; padding: 0 56px; border-bottom: 1px solid #2e2e31; }
+  .mark { display: flex; align-items: center; gap: 14px; font-weight: 700; font-size: 30px; letter-spacing: -0.5px; }
+  .dot { width: 30px; height: 30px; border-radius: 9px; background: linear-gradient(135deg, #8a8f98, #4c5058); }
+  .links { margin-left: auto; display: flex; gap: 40px; font-size: 22px; color: #9a9aa0; }
+  main { width: 600px; margin: 70px auto 0; }
+  h1 { display: inline-block; font-size: 56px; font-weight: 700; letter-spacing: -1.2px; }
+  .sub { margin-top: 12px; font-size: 24px; color: #9a9aa0; }
+  label { display: block; margin-top: 44px; font-size: 21px; color: #b4b4ba; font-weight: 500; }
+  .field { margin-top: 12px; height: 76px; border-radius: 14px; background: #262629; border: 2px solid #3a3a3f; display: flex; align-items: center; padding: 0 24px; font-size: 26px; }
+  #password { letter-spacing: 6px; font-size: 30px; border-color: #6a6a72; }
+  button { margin-top: 44px; width: 100%; height: 80px; border: 0; border-radius: 14px; background: #e6e6e8; color: #161618; font: 600 27px "Inter", sans-serif; }
+  .forgot { margin-top: 26px; text-align: center; font-size: 22px; color: #9a9aa0; }
+  .sep { margin: 48px 0 0; height: 1px; background: #2e2e31; }
+  .new { margin-top: 34px; text-align: center; font-size: 23px; color: #b4b4ba; }
+  .new b { color: #ececec; font-weight: 600; }
+  footer { position: absolute; bottom: 44px; left: 0; right: 0; text-align: center; font-size: 19px; color: #6e6e74; }
+</style>
+</head>
+<body>
+  <nav><div class="mark"><div class="dot"></div>Example</div><div class="links"><span>Docs</span><span>Pricing</span><span>Help</span></div></nav>
+  <main>
+    <h1>Sign in</h1>
+    <div class="sub">to continue to your Example account</div>
+    <form>
+      <label>Email</label>
+      <div class="field" id="email">sam@example.com</div>
+      <label>Password</label>
+      <div class="field" id="password">••••••••••</div>
+      <button type="button">Sign in</button>
+    </form>
+    <div class="forgot">Forgot password?</div>
+    <div class="sep"></div>
+    <div class="new">New here? <b>Create an account</b></div>
+  </main>
+  <footer>Privacy · Terms · © Example</footer>
+</body>
+</html>

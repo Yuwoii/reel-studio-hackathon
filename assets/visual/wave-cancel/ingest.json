@@ -1,0 +1,50 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "wave-cancel",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "WaveCancel",
+    "title": "Noise-cancelling wave chart (drawn)",
+    "depicts": "Drawn noise-cancelling wave chart: a sound, the opposite wave played a moment later and what is left; slow vs quick; a spike copied late.",
+    "tags": [
+      "noise-cancelling",
+      "anc",
+      "sound-wave",
+      "opposite-wave",
+      "anti-noise",
+      "headphones",
+      "hum",
+      "residual",
+      "latency",
+      "wave-chart"
+    ],
+    "families": [
+      "science"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-11-03",
+      "modified": false,
+      "changes": "source: remotion/v3/components/WaveCancel.tsx (meta src/v3/components-meta/WaveCancel.ts)"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "diagram only, no product marks"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": []
+  }
+}

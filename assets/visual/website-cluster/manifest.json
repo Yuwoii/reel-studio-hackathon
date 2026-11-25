@@ -1,0 +1,184 @@
+{
+  "id": "website-cluster",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Website: front server + computers (drawn)",
+  "depicts": "A drawn website that opens into a front server holding the key and a row of computers inside a dashed 'one website' outline.",
+  "tags": [
+    "website",
+    "server",
+    "front-server",
+    "computers",
+    "load-balancer",
+    "tls-termination",
+    "backend",
+    "cluster"
+  ],
+  "families": [
+    "network",
+    "security",
+    "systems"
+  ],
+  "component": "WebsiteCluster",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-11-02",
+    "modified": false,
+    "changes": "source: remotion/v3/components/WebsiteCluster.tsx (meta src/v3/components-meta/WebsiteCluster.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic design, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "website": {
+      "label": "the website",
+      "physical": "example.com: everything that answers when you visit it",
+      "at": {
+        "x": 0.5,
+        "y": 0.5329
+      },
+      "r": 0.48
+    },
+    "name": {
+      "label": "the website's name",
+      "physical": "example.com",
+      "at": {
+        "x": 0.21,
+        "y": 0.0921
+      },
+      "r": 0.16
+    },
+    "front": {
+      "label": "the front server",
+      "physical": "the website's front computer: everything you send hits it first",
+      "at": {
+        "x": 0.18,
+        "y": 0.5263
+      },
+      "r": 0.18
+    },
+    "front.inlet": {
+      "label": "the front server's door",
+      "physical": "where incoming connections arrive",
+      "at": {
+        "x": 0.07,
+        "y": 0.5263
+      },
+      "r": 0.03
+    },
+    "front.light": {
+      "label": "the front server's light",
+      "physical": "flashes when something arrives",
+      "at": {
+        "x": 0.11,
+        "y": 0.3368
+      },
+      "r": 0.022
+    },
+    "front.key": {
+      "label": "the website's key",
+      "physical": "the front server holds the key that opens your lock",
+      "at": {
+        "x": 0.18,
+        "y": 0.4458
+      },
+      "r": 0.044
+    },
+    "row": {
+      "label": "the computers behind it",
+      "physical": "the website's other computers (they do the actual work)",
+      "at": {
+        "x": 0.675,
+        "y": 0.5197
+      },
+      "r": 0.275
+    },
+    "computer1": {
+      "label": "computer 1",
+      "physical": "one of the website's computers",
+      "at": {
+        "x": 0.4598,
+        "y": 0.5197
+      },
+      "r": 0.155
+    },
+    "computer2": {
+      "label": "computer 2",
+      "physical": "one of the website's computers",
+      "at": {
+        "x": 0.6032,
+        "y": 0.5197
+      },
+      "r": 0.155
+    },
+    "computer3": {
+      "label": "computer 3",
+      "physical": "one of the website's computers",
+      "at": {
+        "x": 0.7468,
+        "y": 0.5197
+      },
+      "r": 0.155
+    },
+    "computer4": {
+      "label": "computer 4",
+      "physical": "one of the website's computers",
+      "at": {
+        "x": 0.8903,
+        "y": 0.5197
+      },
+      "r": 0.155
+    },
+    "inner.line": {
+      "label": "the inner line",
+      "physical": "inside the website: from the front server to the computers behind it",
+      "at": {
+        "x": 0.345,
+        "y": 0.8158
+      },
+      "r": 0.075
+    },
+    "outline": {
+      "label": "the website's edge",
+      "physical": "everything inside the dashed line is one website",
+      "at": {
+        "x": 0.02,
+        "y": 0.5329
+      },
+      "r": 0.03
+    },
+    "page": {
+      "label": "the website",
+      "physical": "the website seen from outside: one box",
+      "at": {
+        "x": 0.5,
+        "y": 0.5724
+      },
+      "r": 0.15
+    },
+    "inlet": {
+      "label": "the way in",
+      "physical": "where what you send arrives",
+      "at": {
+        "x": 0.02,
+        "y": 0.5263
+      },
+      "r": 0.03
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": [
+    "simplified: a real site may have several front servers / a CDN; the front server is where TLS ends (termination)"
+  ]
+}

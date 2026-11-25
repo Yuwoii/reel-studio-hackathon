@@ -1,0 +1,208 @@
+{
+  "id": "server-rack",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Generic server rack (drawn)",
+  "depicts": "A drawn server rack: a cabinet of stacked servers with drive bays and status lights.",
+  "tags": [
+    "server",
+    "rack",
+    "data-centre",
+    "computers",
+    "hosting",
+    "cloud",
+    "backend"
+  ],
+  "families": [
+    "systems",
+    "network",
+    "outage"
+  ],
+  "component": "ServerRack",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-10-31",
+    "modified": false,
+    "changes": "source: remotion/v3/components/ServerRack.tsx (meta src/v3/components-meta/ServerRack.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic design, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "rack": {
+      "label": "the server rack",
+      "physical": "a cabinet of computers (servers) in a data centre",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "r": 0.5
+    },
+    "unit1": {
+      "label": "server 1",
+      "physical": "one computer in the rack",
+      "at": {
+        "x": 0.5,
+        "y": 0.1116
+      },
+      "r": 0.4143
+    },
+    "unit1.leds": {
+      "label": "server 1's lights",
+      "physical": "status lights: blink when the server works",
+      "at": {
+        "x": 0.8357,
+        "y": 0.0982
+      },
+      "r": 0.0607
+    },
+    "unit2": {
+      "label": "server 2",
+      "physical": "one computer in the rack",
+      "at": {
+        "x": 0.5,
+        "y": 0.2223
+      },
+      "r": 0.4143
+    },
+    "unit2.leds": {
+      "label": "server 2's lights",
+      "physical": "status lights: blink when the server works",
+      "at": {
+        "x": 0.8357,
+        "y": 0.2089
+      },
+      "r": 0.0607
+    },
+    "unit3": {
+      "label": "server 3",
+      "physical": "one computer in the rack",
+      "at": {
+        "x": 0.5,
+        "y": 0.333
+      },
+      "r": 0.4143
+    },
+    "unit3.leds": {
+      "label": "server 3's lights",
+      "physical": "status lights: blink when the server works",
+      "at": {
+        "x": 0.8357,
+        "y": 0.3196
+      },
+      "r": 0.0607
+    },
+    "unit4": {
+      "label": "server 4",
+      "physical": "one computer in the rack",
+      "at": {
+        "x": 0.5,
+        "y": 0.4438
+      },
+      "r": 0.4143
+    },
+    "unit4.leds": {
+      "label": "server 4's lights",
+      "physical": "status lights: blink when the server works",
+      "at": {
+        "x": 0.8357,
+        "y": 0.4304
+      },
+      "r": 0.0607
+    },
+    "unit5": {
+      "label": "server 5",
+      "physical": "one computer in the rack",
+      "at": {
+        "x": 0.5,
+        "y": 0.5545
+      },
+      "r": 0.4143
+    },
+    "unit5.leds": {
+      "label": "server 5's lights",
+      "physical": "status lights: blink when the server works",
+      "at": {
+        "x": 0.8357,
+        "y": 0.5411
+      },
+      "r": 0.0607
+    },
+    "unit6": {
+      "label": "server 6",
+      "physical": "one computer in the rack",
+      "at": {
+        "x": 0.5,
+        "y": 0.6652
+      },
+      "r": 0.4143
+    },
+    "unit6.leds": {
+      "label": "server 6's lights",
+      "physical": "status lights: blink when the server works",
+      "at": {
+        "x": 0.8357,
+        "y": 0.6518
+      },
+      "r": 0.0607
+    },
+    "unit7": {
+      "label": "server 7",
+      "physical": "one computer in the rack",
+      "at": {
+        "x": 0.5,
+        "y": 0.7759
+      },
+      "r": 0.4143
+    },
+    "unit7.leds": {
+      "label": "server 7's lights",
+      "physical": "status lights: blink when the server works",
+      "at": {
+        "x": 0.8357,
+        "y": 0.7625
+      },
+      "r": 0.0607
+    },
+    "unit8": {
+      "label": "server 8",
+      "physical": "one computer in the rack",
+      "at": {
+        "x": 0.5,
+        "y": 0.8866
+      },
+      "r": 0.4143
+    },
+    "unit8.leds": {
+      "label": "server 8's lights",
+      "physical": "status lights: blink when the server works",
+      "at": {
+        "x": 0.8357,
+        "y": 0.8732
+      },
+      "r": 0.0607
+    },
+    "leds": {
+      "label": "the status lights",
+      "physical": "status lights: blink when the server works",
+      "at": {
+        "x": 0.8357,
+        "y": 0.3196
+      },
+      "r": 0.0607
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": []
+}

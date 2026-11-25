@@ -1,0 +1,49 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "server-rack",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "ServerRack",
+    "title": "Generic server rack (drawn)",
+    "depicts": "A drawn server rack: a cabinet of stacked servers with drive bays and status lights.",
+    "tags": [
+      "server",
+      "rack",
+      "data-centre",
+      "computers",
+      "hosting",
+      "cloud",
+      "backend"
+    ],
+    "families": [
+      "systems",
+      "network",
+      "outage"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-10-31",
+      "modified": false,
+      "changes": "source: remotion/v3/components/ServerRack.tsx (meta src/v3/components-meta/ServerRack.ts)"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic design, no product marks (D1 #2d)"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": []
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "browser-generic",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Generic browser window",
+  "depicts": "An unbranded browser window: address bar (tapped: https:// shown so the S can be zoomed), page, connection panel.",
+  "tags": [
+    "browser",
+    "url-bar",
+    "address-bar",
+    "https",
+    "lock",
+    "web",
+    "website",
+    "certificate"
+  ],
+  "families": [
+    "security",
+    "network"
+  ],
+  "component": "BrowserWindow",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-10-31",
+    "modified": false,
+    "changes": "source: remotion/v3/components/BrowserWindow.tsx (meta src/v3/components-meta/BrowserWindow.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic design, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "urlbar": {
+      "label": "the address bar",
+      "physical": "the field showing the web address",
+      "at": {
+        "x": 0.5,
+        "y": 0.0939
+      },
+      "r": 0.475
+    },
+    "urlbar.host": {
+      "label": "the site name",
+      "physical": "the domain; stays visible to the network even with HTTPS",
+      "at": {
+        "x": 0.3452,
+        "y": 0.0939
+      },
+      "r": 0.1252
+    },
+    "page": {
+      "label": "the page",
+      "physical": "the website content",
+      "at": {
+        "x": 0.5,
+        "y": 0.5697
+      },
+      "r": 0.3958
+    },
+    "popover": {
+      "label": "the connection panel",
+      "physical": "connection details: protocol, site, who vouches for it, expiry",
+      "at": {
+        "x": 0.4458,
+        "y": 0.3114
+      },
+      "r": 0.3125
+    },
+    "popover.issuer": {
+      "label": "who vouches for the site",
+      "physical": "the issuer: the certificate authority that signed the site's certificate",
+      "at": {
+        "x": 0.5281,
+        "y": 0.3394
+      },
+      "r": 0.0417
+    },
+    "urlbar.scheme": {
+      "label": "https://",
+      "physical": "the scheme part of the address",
+      "at": {
+        "x": 0.1433,
+        "y": 0.0939
+      },
+      "r": 0.0913
+    },
+    "urlbar.schemeS": {
+      "label": "the S of https",
+      "physical": "the letter s: secure — the trip to the site is sealed with TLS",
+      "at": {
+        "x": 0.1567,
+        "y": 0.0987
+      },
+      "r": 0.0219
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": [
+    "generic chrome: not any real browser's look (D1 #2d)",
+    "issuer in the connection panel is generic ('a certificate authority', D1 #2c)"
+  ]
+}

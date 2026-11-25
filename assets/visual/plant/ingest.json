@@ -1,0 +1,50 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "plant",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "Plant",
+    "title": "Whole plant under a day / night sky (drawn)",
+    "depicts": "Drawn whole plant (wheat, corn or cactus) in its ground under a day or night sky, with small pore marks that open or shut.",
+    "tags": [
+      "plant",
+      "cactus",
+      "corn",
+      "maize",
+      "wheat",
+      "crop",
+      "desert",
+      "night",
+      "day",
+      "pores"
+    ],
+    "families": [
+      "science"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-11-10",
+      "modified": false,
+      "changes": "source: remotion/v3/components/Plant.tsx (meta src/v3/components-meta/Plant.ts); generic plants drawn in-house"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic plants, no marks"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": []
+  }
+}

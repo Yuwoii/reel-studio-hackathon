@@ -1,0 +1,112 @@
+{
+  "id": "lock-box",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Locked box with address label (drawn)",
+  "depicts": "A drawn box carrying the cat picture: padlock shuts, address label stays readable, x-ray shows scrambled contents.",
+  "tags": [
+    "box",
+    "parcel",
+    "lock",
+    "padlock",
+    "address",
+    "tls",
+    "encryption",
+    "package"
+  ],
+  "families": [
+    "security",
+    "network"
+  ],
+  "component": "LockBox",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-11-02",
+    "modified": false,
+    "changes": "source: remotion/v3/components/LockBox.tsx (meta src/v3/components-meta/LockBox.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic design, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "box": {
+      "label": "the locked box",
+      "physical": "your picture, packed for the trip",
+      "at": {
+        "x": 0.5,
+        "y": 0.6977
+      },
+      "r": 0.45
+    },
+    "lid": {
+      "label": "the lid",
+      "physical": "closes over the picture",
+      "at": {
+        "x": 0.5,
+        "y": 0.4122
+      },
+      "r": 0.47
+    },
+    "padlock": {
+      "label": "the lock (open)",
+      "physical": "TLS: the lock only the website can open",
+      "at": {
+        "x": 0.8,
+        "y": 0.5722
+      },
+      "r": 0.132
+    },
+    "keyhole": {
+      "label": "the keyhole",
+      "physical": "where the website's key goes",
+      "at": {
+        "x": 0.8,
+        "y": 0.5661
+      },
+      "r": 0.0288
+    },
+    "label": {
+      "label": "the address label",
+      "physical": "where it's going (the website's name) - readable from outside",
+      "at": {
+        "x": 0.5,
+        "y": 0.8562
+      },
+      "r": 0.4
+    },
+    "card": {
+      "label": "the cat picture",
+      "physical": "the photo you post, out of the box",
+      "at": {
+        "x": 0.5,
+        "y": 0.296
+      },
+      "r": 0.23
+    },
+    "contents": {
+      "label": "what's inside (scrambled)",
+      "physical": "to a snooper the picture is just random characters",
+      "at": {
+        "x": 0.4,
+        "y": 0.6272
+      },
+      "r": 0.2
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": [
+    "an analogy object: TLS encrypts the contents; the address (which website) stays visible to the network",
+    "opening at the website's front server is NORMAL: never show it as a break-in"
+  ]
+}

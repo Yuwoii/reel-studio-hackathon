@@ -1,0 +1,48 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "router",
+    "version": 2,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "Router",
+    "title": "Generic home router (drawn)",
+    "depicts": "A drawn home Wi-Fi router with two antennas and blinking status lights.",
+    "tags": [
+      "router",
+      "wifi",
+      "wi-fi",
+      "home",
+      "network",
+      "modem",
+      "antenna"
+    ],
+    "families": [
+      "network",
+      "security"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-10-31",
+      "modified": false,
+      "changes": "source: remotion/v3/components/Router.tsx (meta src/v3/components-meta/Router.ts)"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic design, no product marks (D1 #2d)"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": []
+  }
+}

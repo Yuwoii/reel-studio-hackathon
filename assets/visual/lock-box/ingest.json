@@ -1,0 +1,52 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "lock-box",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "LockBox",
+    "title": "Locked box with address label (drawn)",
+    "depicts": "A drawn box carrying the cat picture: padlock shuts, address label stays readable, x-ray shows scrambled contents.",
+    "tags": [
+      "box",
+      "parcel",
+      "lock",
+      "padlock",
+      "address",
+      "tls",
+      "encryption",
+      "package"
+    ],
+    "families": [
+      "security",
+      "network"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-11-02",
+      "modified": false,
+      "changes": "source: remotion/v3/components/LockBox.tsx (meta src/v3/components-meta/LockBox.ts)"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic design, no product marks (D1 #2d)"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": [
+      "an analogy object: TLS encrypts the contents; the address (which website) stays visible to the network",
+      "opening at the website's front server is NORMAL: never show it as a break-in"
+    ]
+  }
+}

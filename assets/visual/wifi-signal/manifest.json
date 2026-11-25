@@ -1,0 +1,61 @@
+{
+  "id": "wifi-signal",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Wi-Fi symbol (drawn)",
+  "depicts": "The familiar Wi-Fi symbol: three arcs over a dot that light up when traffic passes.",
+  "tags": [
+    "wifi",
+    "wireless",
+    "network",
+    "signal",
+    "hotspot"
+  ],
+  "families": [
+    "network",
+    "security"
+  ],
+  "component": "WifiSignal",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-11-02",
+    "modified": false,
+    "changes": "source: remotion/v3/components/WifiSignal.tsx (meta src/v3/components-meta/WifiSignal.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic design, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "wifi": {
+      "label": "the Wi-Fi",
+      "physical": "the wireless network your phone talks to",
+      "at": {
+        "x": 0.5,
+        "y": 0.5455
+      },
+      "r": 0.5
+    },
+    "dot": {
+      "label": "the Wi-Fi",
+      "physical": "where the radio signal starts",
+      "at": {
+        "x": 0.5,
+        "y": 0.8636
+      },
+      "r": 0.0923
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": []
+}

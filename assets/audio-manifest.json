@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "generator": "scripts/v2/audio-assets.sh",
+  "ffmpeg": "5.1.9-0+deb12u1",
+  "note": "Synthesised in-house; regenerate with the generator (byte-identical). sha256 of every file under assets/.",
+  "default_bed": "dark-amin-100bpm-72s",
+  "beds": [
+    {
+      "id": "dark-amin-100bpm-72s",
+      "file": "music/dark-amin-100bpm-72s.wav",
+      "sha256": "3b036fc0e395c2cef1b4a458f56c59fc538d0b3ae772f0dd29aae513e1906664",
+      "bytes": 13824044,
+      "duration_s": 72,
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits": 16,
+      "integrated_lufs": -20,
+      "lra_lu": 2.9,
+      "loop": true,
+      "seam_jump": 0.00739,
+      "p999_diff": 0.01151,
+      "ratio": 0.642,
+      "true_peak_dbtp": -4.3,
+      "sample_peak_dbfs": -4.25519,
+      "gen_gain_db": 1.4
+    }
+  ],
+  "sfx": [
+    {
+      "id": "tick",
+      "file": "sfx/tick.wav",
+      "sha256": "684f591ea4d2346b0cfb3f389044909d632182ec26a0e2d41e567b2ac358f9f3",
+      "bytes": 11564,
+      "duration_s": 0.06,
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits": 16,
+      "event_lufs_mmax": -19.8,
+      "true_peak_dbtp": -0.9,
+      "sample_peak_dbfs": -0.999589,
+      "gen_gain_db": 6.32
+    },
+    {
+      "id": "whoosh",
+      "file": "sfx/whoosh.wav",
+      "sha256": "dd86ca19bfe6a771067ae924dfbaaa5d9e383c6aae88d364016226c3df079787",
+      "bytes": 115244,
+      "duration_s": 0.6,
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits": 16,
+      "event_lufs_mmax": -9.9,
+      "true_peak_dbtp": -1,
+      "sample_peak_dbfs": -0.99721,
+      "gen_gain_db": 17.73
+    },
+    {
+      "id": "glitch",
+      "file": "sfx/glitch.wav",
+      "sha256": "4fdf9b6f7577b2e7908af1e925b8ef4e33b623d3cc5e8298c7b0966d0d0a173e",
+      "bytes": 53804,
+      "duration_s": 0.28,
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits": 16,
+      "event_lufs_mmax": -8.5,
+      "true_peak_dbtp": -1,
+      "sample_peak_dbfs": -0.999292,
+      "gen_gain_db": 4.1
+    },
+    {
+      "id": "thud",
+      "file": "sfx/thud.wav",
+      "sha256": "c1a4f80b7fb3b16888959296fc7719f51e86ceff2872b6ace3585f13bc7adbc8",
+      "bytes": 153644,
+      "duration_s": 0.8,
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits": 16,
+      "event_lufs_mmax": -12.5,
+      "true_peak_dbtp": -1,
+      "sample_peak_dbfs": -0.995427,
+      "gen_gain_db": 1.31
+    },
+    {
+      "id": "chatter",
+      "file": "sfx/chatter.wav",
+      "sha256": "16e6c6b6674c23982ca463fb1e9ea0c09f838d4f8e2718115fac962bf0b8f0c6",
+      "bytes": 230444,
+      "duration_s": 1.2,
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits": 16,
+      "event_lufs_mmax": -12.9,
+      "true_peak_dbtp": -1,
+      "sample_peak_dbfs": -1.000779,
+      "gen_gain_db": 14.83
+    }
+  ],
+  "levels": {
+    "file": "sfx/levels.json",
+    "sha256": "9907ca3943148e43157eda1ffcfe45a51d0aec54a86fef840020b895f37248d2"
+  }
+}

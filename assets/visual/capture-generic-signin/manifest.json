@@ -1,0 +1,168 @@
+{
+  "id": "capture-generic-signin",
+  "version": 1,
+  "kind": "capture",
+  "sourceClass": "c",
+  "title": "Generic sign-in page (own neutral page, captured)",
+  "depicts": "A generic dark sign-in page for 'Example': heading, email box, password dots and a Sign in button. Our own page, no real site.",
+  "tags": [
+    "web",
+    "page",
+    "website",
+    "browser",
+    "login",
+    "sign-in",
+    "password",
+    "form",
+    "https",
+    "capture"
+  ],
+  "families": [
+    "security",
+    "network"
+  ],
+  "file": {
+    "path": "plate.png",
+    "w": 1920,
+    "h": 2272,
+    "bytes": 80215,
+    "sha256": "7e8bb7ecf81a0f94e15907726e19416c1d3809cb679e0ea887eddd848edf5db5"
+  },
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (own page assets/visual/capture-generic-signin/page.html, Inter OFL)",
+    "retrieved": "2026-10-31",
+    "modified": false,
+    "sourceSha256": "f37ea2a56a2e6d1651d858d26a6b685c5f84bc5969d1ddd1142096df15d9af1f"
+  },
+  "provenance": "screen-capture",
+  "provenanceNote": "a Playwright capture (Remotion chrome-headless-shell) of our own page.html via file:// — not a live site",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": []
+  },
+  "people": false,
+  "review": {
+    "people": {
+      "by": "W3a agent",
+      "date": "2026-10-31",
+      "file": "plate.png",
+      "result": "pass",
+      "note": "form page, no people"
+    },
+    "brandMarks": {
+      "by": "W3a agent",
+      "date": "2026-10-31",
+      "file": "plate.png",
+      "result": "pass",
+      "note": "generic 'Example' wordmark (RFC 2606 name) and a grey square; no real brand"
+    }
+  },
+  "anchors": {
+    "heading": {
+      "label": "the page heading",
+      "physical": "the page title: Sign in",
+      "at": {
+        "x": 0.2748,
+        "y": 0.176
+      },
+      "box": {
+        "x0": 0.1875,
+        "y0": 0.1461,
+        "x1": 0.3621,
+        "y1": 0.206
+      }
+    },
+    "field.email": {
+      "label": "the email box",
+      "physical": "where you type your email address",
+      "at": {
+        "x": 0.5,
+        "y": 0.3469
+      },
+      "box": {
+        "x0": 0.1875,
+        "y0": 0.3134,
+        "x1": 0.8125,
+        "y1": 0.3803
+      }
+    },
+    "field.password": {
+      "label": "the password box",
+      "physical": "where you type your password (shown as dots); HTTPS seals it on the way",
+      "at": {
+        "x": 0.5,
+        "y": 0.4851
+      },
+      "box": {
+        "x0": 0.1875,
+        "y0": 0.4516,
+        "x1": 0.8125,
+        "y1": 0.5185
+      }
+    },
+    "button": {
+      "label": "the sign-in button",
+      "physical": "sends what you typed to the site",
+      "at": {
+        "x": 0.5,
+        "y": 0.5924
+      },
+      "box": {
+        "x0": 0.1875,
+        "y0": 0.5572,
+        "x1": 0.8125,
+        "y1": 0.6276
+      }
+    },
+    "form": {
+      "label": "the sign-in form",
+      "physical": "the email and password you send to the site",
+      "at": {
+        "x": 0.5,
+        "y": 0.4542
+      },
+      "box": {
+        "x0": 0.1875,
+        "y0": 0.2808,
+        "x1": 0.8125,
+        "y1": 0.6276
+      }
+    },
+    "logo": {
+      "label": "the site name",
+      "physical": "the (made-up) site's name, Example",
+      "at": {
+        "x": 0.1419,
+        "y": 0.0419
+      },
+      "box": {
+        "x0": 0.0583,
+        "y0": 0.026,
+        "x1": 0.2255,
+        "y1": 0.0577
+      }
+    }
+  },
+  "defaultAnchor": "field.password",
+  "treatment": {
+    "preset": "capture-dark@1",
+    "extra": "960x1136 CSS px at 2x = the BrowserWindow page area"
+  },
+  "tone": {
+    "meanLuma": 0.163,
+    "p99Luma": 0.788,
+    "meanSat": 0.06
+  },
+  "captured": {
+    "url": "file:page.html",
+    "capturedAt": "2026-10-31T20:15:59.788Z",
+    "status": 200
+  },
+  "caveats": [
+    "a made-up site: never name a real company for it",
+    "the email shown is the reserved example.com domain"
+  ]
+}

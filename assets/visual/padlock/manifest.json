@@ -1,0 +1,83 @@
+{
+  "id": "padlock",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Padlock (drawn)",
+  "depicts": "A drawn padlock: the shackle clicks shut (locked) or lifts open (always neutral, never red); a key can turn in it.",
+  "tags": [
+    "padlock",
+    "lock",
+    "tls",
+    "https",
+    "key",
+    "locked",
+    "secure"
+  ],
+  "families": [
+    "security",
+    "network"
+  ],
+  "component": "Padlock",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-11-02",
+    "modified": false,
+    "changes": "source: remotion/v3/components/Padlock.tsx (meta src/v3/components-meta/Padlock.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic design, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "lock": {
+      "label": "the lock",
+      "physical": "the padlock (TLS: only the right side can open it)",
+      "at": {
+        "x": 0.5,
+        "y": 0.6727
+      },
+      "r": 0.42
+    },
+    "body": {
+      "label": "the lock body",
+      "physical": "the padlock's body",
+      "at": {
+        "x": 0.5,
+        "y": 0.6727
+      },
+      "r": 0.4
+    },
+    "shackle": {
+      "label": "the shackle",
+      "physical": "the U-shaped bar that clicks shut",
+      "at": {
+        "x": 0.5,
+        "y": 0.19
+      },
+      "r": 0.3
+    },
+    "keyhole": {
+      "label": "the keyhole",
+      "physical": "where the key goes",
+      "at": {
+        "x": 0.5,
+        "y": 0.64
+      },
+      "r": 0.1
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": [
+    "an analogy object: TLS is not a physical lock; 'locked' = encrypted so only the website can read it"
+  ]
+}

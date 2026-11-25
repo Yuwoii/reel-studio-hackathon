@@ -1,0 +1,92 @@
+{
+  "id": "building",
+  "version": 2,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Generic office building (drawn)",
+  "depicts": "A drawn office building with a front door and a mailroom window just inside.",
+  "tags": [
+    "building",
+    "company",
+    "office",
+    "front-door",
+    "mailroom",
+    "organisation"
+  ],
+  "families": [
+    "security",
+    "network",
+    "systems"
+  ],
+  "component": "Building",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-10-31",
+    "modified": false,
+    "changes": "source: remotion/v3/components/Building.tsx (meta src/v3/components-meta/Building.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic design, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "building": {
+      "label": "the company building",
+      "physical": "the website's company (its servers live inside)",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "r": 0.5
+    },
+    "frontDoor": {
+      "label": "the front door",
+      "physical": "where traffic enters the company: the load balancer / proxy",
+      "at": {
+        "x": 0.5,
+        "y": 0.8068
+      },
+      "r": 0.125
+    },
+    "mailroom": {
+      "label": "the mailroom",
+      "physical": "just inside the door: opened letters are sorted to the right desk",
+      "at": {
+        "x": 0.2368,
+        "y": 0.767
+      },
+      "r": 0.1184
+    },
+    "offices": {
+      "label": "the offices inside",
+      "physical": "the computers that do the work (the servers)",
+      "at": {
+        "x": 0.5,
+        "y": 0.3847
+      },
+      "r": 0.3421
+    },
+    "roof": {
+      "label": "the roof",
+      "physical": "top of the building",
+      "at": {
+        "x": 0.5,
+        "y": 0.0557
+      },
+      "r": 0.0789
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": [
+    "an analogy object: the company's front door stands for its load balancer / proxy"
+  ]
+}

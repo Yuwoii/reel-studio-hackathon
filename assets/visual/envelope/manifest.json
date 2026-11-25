@@ -1,0 +1,82 @@
+{
+  "id": "envelope",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Sealed envelope (drawn)",
+  "depicts": "A drawn sealed letter with a glowing seal; it can open to show the note inside.",
+  "tags": [
+    "envelope",
+    "letter",
+    "seal",
+    "message",
+    "encryption",
+    "sealed"
+  ],
+  "families": [
+    "security",
+    "network"
+  ],
+  "component": "Envelope",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-10-31",
+    "modified": false,
+    "changes": "source: remotion/v3/components/Envelope.tsx (meta src/v3/components-meta/Envelope.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic design, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "envelope": {
+      "label": "the sealed letter",
+      "physical": "the message, sealed (encrypted) for the trip",
+      "at": {
+        "x": 0.5,
+        "y": 0.7422
+      },
+      "r": 0.5
+    },
+    "seal": {
+      "label": "the seal",
+      "physical": "the lock on the letter: only the right recipient can open it (TLS)",
+      "at": {
+        "x": 0.5,
+        "y": 0.768
+      },
+      "r": 0.154
+    },
+    "flap": {
+      "label": "the flap",
+      "physical": "envelope flap",
+      "at": {
+        "x": 0.5,
+        "y": 0.5978
+      },
+      "r": 0.3
+    },
+    "note": {
+      "label": "the letter inside",
+      "physical": "the readable message (e.g. your password) once opened",
+      "at": {
+        "x": 0.5,
+        "y": 0.3297
+      },
+      "r": 0.38
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": [
+    "an analogy object: a real wax seal only shows tampering; TLS also scrambles the contents"
+  ]
+}

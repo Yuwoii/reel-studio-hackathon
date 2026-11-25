@@ -1,0 +1,129 @@
+{
+  "id": "watch-back",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Generic smartwatch underside (drawn)",
+  "depicts": "A drawn smartwatch back: round sensor window, two green LEDs and four light sensors.",
+  "tags": [
+    "watch",
+    "smartwatch",
+    "sensor",
+    "heart-rate",
+    "ppg",
+    "led",
+    "wrist",
+    "optical"
+  ],
+  "families": [
+    "science"
+  ],
+  "component": "WatchBack",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-10-31",
+    "modified": false,
+    "changes": "source: remotion/v3/components/WatchBack.tsx (meta src/v3/components-meta/WatchBack.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic design, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "case": {
+      "label": "the back of the watch",
+      "physical": "the underside that sits on your wrist",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "r": 0.46
+    },
+    "sensorWindow": {
+      "label": "the sensor window",
+      "physical": "round window over the optical heart sensor",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "r": 0.3
+    },
+    "led.left": {
+      "label": "a green LED",
+      "physical": "green light shines into the skin (flashes hundreds of times a second)",
+      "at": {
+        "x": 0.44,
+        "y": 0.5
+      },
+      "r": 0.045
+    },
+    "led.right": {
+      "label": "a green LED",
+      "physical": "green light shines into the skin (flashes hundreds of times a second)",
+      "at": {
+        "x": 0.56,
+        "y": 0.5
+      },
+      "r": 0.045
+    },
+    "sensor.top": {
+      "label": "a light sensor",
+      "physical": "photodiode: measures how much green light comes back",
+      "at": {
+        "x": 0.5,
+        "y": 0.38
+      },
+      "r": 0.05
+    },
+    "sensor.left": {
+      "label": "a light sensor",
+      "physical": "photodiode: measures how much green light comes back",
+      "at": {
+        "x": 0.36,
+        "y": 0.52
+      },
+      "r": 0.05
+    },
+    "sensor.right": {
+      "label": "a light sensor",
+      "physical": "photodiode: measures how much green light comes back",
+      "at": {
+        "x": 0.64,
+        "y": 0.52
+      },
+      "r": 0.05
+    },
+    "sensor.bottom": {
+      "label": "a light sensor",
+      "physical": "photodiode: measures how much green light comes back",
+      "at": {
+        "x": 0.5,
+        "y": 0.64
+      },
+      "r": 0.05
+    },
+    "leds": {
+      "label": "the green LEDs",
+      "physical": "both LEDs: shine green light into the skin",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "r": 0.11
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": [
+    "illustrative LED/sensor layout, not a specific product",
+    "LEDs glow steadily when measuring; only the returned light dips per heartbeat"
+  ]
+}

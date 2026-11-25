@@ -1,0 +1,101 @@
+{
+  "id": "wave-cancel",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Noise-cancelling wave chart (drawn)",
+  "depicts": "Drawn noise-cancelling wave chart: a sound, the opposite wave played a moment later and what is left; slow vs quick; a spike copied late.",
+  "tags": [
+    "noise-cancelling",
+    "anc",
+    "sound-wave",
+    "opposite-wave",
+    "anti-noise",
+    "headphones",
+    "hum",
+    "residual",
+    "latency",
+    "wave-chart"
+  ],
+  "families": [
+    "science"
+  ],
+  "component": "WaveCancel",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-11-03",
+    "modified": false,
+    "changes": "source: remotion/v3/components/WaveCancel.tsx (meta src/v3/components-meta/WaveCancel.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "diagram only, no product marks"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "slow": {
+      "label": "slow hum",
+      "physical": "the slow hum column",
+      "at": {
+        "x": 0.2609,
+        "y": 0.5
+      },
+      "r": 0.2217
+    },
+    "slow.waves": {
+      "label": "noise + opposite",
+      "physical": "the sound and the opposite wave the headphones play",
+      "at": {
+        "x": 0.2609,
+        "y": 0.3352
+      },
+      "r": 0.1413
+    },
+    "slow.left": {
+      "label": "what's left",
+      "physical": "what reaches your ear: about 21% of the sound",
+      "at": {
+        "x": 0.2609,
+        "y": 0.7028
+      },
+      "r": 0.125
+    },
+    "quick": {
+      "label": "quick sound",
+      "physical": "the quick sound column",
+      "at": {
+        "x": 0.7391,
+        "y": 0.5
+      },
+      "r": 0.2217
+    },
+    "quick.waves": {
+      "label": "noise + opposite",
+      "physical": "the sound and the opposite wave the headphones play",
+      "at": {
+        "x": 0.7391,
+        "y": 0.3352
+      },
+      "r": 0.1413
+    },
+    "quick.left": {
+      "label": "what's left",
+      "physical": "what reaches your ear: about 99% of the sound",
+      "at": {
+        "x": 0.7391,
+        "y": 0.7028
+      },
+      "r": 0.125
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": []
+}

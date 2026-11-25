@@ -1,0 +1,49 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "envelope",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "Envelope",
+    "title": "Sealed envelope (drawn)",
+    "depicts": "A drawn sealed letter with a glowing seal; it can open to show the note inside.",
+    "tags": [
+      "envelope",
+      "letter",
+      "seal",
+      "message",
+      "encryption",
+      "sealed"
+    ],
+    "families": [
+      "security",
+      "network"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-10-31",
+      "modified": false,
+      "changes": "source: remotion/v3/components/Envelope.tsx (meta src/v3/components-meta/Envelope.ts)"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic design, no product marks (D1 #2d)"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": [
+      "an analogy object: a real wax seal only shows tampering; TLS also scrambles the contents"
+    ]
+  }
+}

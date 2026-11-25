@@ -1,0 +1,249 @@
+{
+  "id": "server-leds-dark",
+  "version": 2,
+  "kind": "photo",
+  "sourceClass": "d",
+  "title": "Server fronts with status lights (photo)",
+  "depicts": "Real rack servers seen front-on from below: drive trays with handles and green status lights; top rows soft-focus.",
+  "tags": [
+    "server",
+    "rack",
+    "leds",
+    "status-lights",
+    "drives",
+    "data-centre",
+    "computers",
+    "hardware"
+  ],
+  "families": [
+    "network",
+    "systems",
+    "outage"
+  ],
+  "file": {
+    "path": "plate.jpg",
+    "w": 2160,
+    "h": 822,
+    "bytes": 159185,
+    "sha256": "4746de7ce6508da7b83803e68fa8d3df59e78aeb8cf198449c230e6d92fcf103"
+  },
+  "licence": {
+    "id": "Pexels",
+    "url": "https://www.pexels.com/license/",
+    "author": "Brett Sayles",
+    "sourceUrl": "https://www.pexels.com/photo/high-angle-shot-of-network-switch-5050305/",
+    "retrieved": "2026-10-29",
+    "modified": true,
+    "changes": "identifying hostname labels masked; cropped to the lower server fronts; scaled to 2160 px; darkened, desaturated, tone curve",
+    "sourceSha256": "642d8444552403f0d6094ed04728abb92bc5b86ceea622b82070c60cfa92448f"
+  },
+  "provenance": "photograph",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "baked-mask",
+    "removed": [
+      "hostname labels on drive-tray handles (SLBPRDUCS05-08)",
+      "asset sticker on the rack rail"
+    ],
+    "masks": [
+      {
+        "covers": [
+          "hostname label"
+        ],
+        "shape": {
+          "kind": "rect",
+          "x0": 0.205,
+          "y0": 0.931,
+          "x1": 0.276,
+          "y1": 0.955
+        },
+        "fill": "solid-local"
+      },
+      {
+        "covers": [
+          "hostname label"
+        ],
+        "shape": {
+          "kind": "rect",
+          "x0": 0.216,
+          "y0": 0.972,
+          "x1": 0.276,
+          "y1": 0.992
+        },
+        "fill": "solid-local"
+      },
+      {
+        "covers": [
+          "hostname label"
+        ],
+        "shape": {
+          "kind": "rect",
+          "x0": 0.203,
+          "y0": 0.89,
+          "x1": 0.258,
+          "y1": 0.909
+        },
+        "fill": "solid-local"
+      },
+      {
+        "covers": [
+          "hostname label"
+        ],
+        "shape": {
+          "kind": "rect",
+          "x0": 0.586,
+          "y0": 0.929,
+          "x1": 0.652,
+          "y1": 0.949
+        },
+        "fill": "solid-local"
+      },
+      {
+        "covers": [
+          "hostname label"
+        ],
+        "shape": {
+          "kind": "rect",
+          "x0": 0.58,
+          "y0": 0.968,
+          "x1": 0.642,
+          "y1": 0.99
+        },
+        "fill": "solid-local"
+      },
+      {
+        "covers": [
+          "hostname label"
+        ],
+        "shape": {
+          "kind": "rect",
+          "x0": 0.59,
+          "y0": 0.888,
+          "x1": 0.658,
+          "y1": 0.909
+        },
+        "fill": "solid-local"
+      },
+      {
+        "covers": [
+          "rack-rail sticker"
+        ],
+        "shape": {
+          "kind": "rect",
+          "x0": 0.899,
+          "y0": 0.876,
+          "x1": 0.931,
+          "y1": 0.916
+        },
+        "fill": "solid-local"
+      }
+    ],
+    "notes": "labels are not brands but identify a real organisation's machines; masked like a mark (D1 #2a spirit)"
+  },
+  "people": false,
+  "review": {
+    "people": {
+      "by": "W3a agent",
+      "date": "2026-10-31",
+      "file": "plate.jpg",
+      "result": "pass",
+      "note": "equipment only (re-checked on @2)"
+    },
+    "brandMarks": {
+      "by": "W3a agent (fix round)",
+      "date": "2026-10-31",
+      "file": "plate.jpg",
+      "result": "pass",
+      "note": "7 rect masks baked at source res; full plate (brandcheck-server-leds-dark-full.jpg) + 4x contrast-boosted crops of every label: no letters left; brandcheck.json rect rows pass"
+    }
+  },
+  "anchors": {
+    "led": {
+      "label": "a status light",
+      "physical": "a green LED that shows the server is on and working",
+      "at": {
+        "x": 0.3007,
+        "y": 0.8206
+      },
+      "r": 0.008
+    },
+    "ledColumn": {
+      "label": "the status lights",
+      "physical": "a column of green LEDs, one per server",
+      "at": {
+        "x": 0.296,
+        "y": 0.765
+      },
+      "box": {
+        "x0": 0.272,
+        "y0": 0.6,
+        "x1": 0.32,
+        "y1": 0.93
+      }
+    },
+    "ledColumnRight": {
+      "label": "the status lights",
+      "physical": "another column of green LEDs, one per server",
+      "at": {
+        "x": 0.7597,
+        "y": 0.7576
+      },
+      "box": {
+        "x0": 0.725,
+        "y0": 0.59,
+        "x1": 0.795,
+        "y1": 0.925
+      }
+    },
+    "drives": {
+      "label": "the drive trays",
+      "physical": "slots holding the servers' storage drives",
+      "at": {
+        "x": 0.52,
+        "y": 0.82
+      },
+      "r": 0.12
+    },
+    "serverFront": {
+      "label": "a server",
+      "physical": "the front of one rack server (drive trays, handles, status light)",
+      "at": {
+        "x": 0.5,
+        "y": 0.86
+      },
+      "box": {
+        "x0": 0.1,
+        "y0": 0.78,
+        "x1": 0.9,
+        "y1": 0.94
+      }
+    }
+  },
+  "safeCrop": {
+    "x0": 0.04,
+    "y0": 0.5,
+    "x1": 0.96,
+    "y1": 1
+  },
+  "defaultAnchor": "ledColumn",
+  "treatment": {
+    "preset": "dark-photo@1",
+    "crop": {
+      "x0": 0.08,
+      "y0": 0.52,
+      "x1": 0.92,
+      "y1": 1
+    },
+    "extra": "identifying tray labels (hostnames) masked in the file at source resolution before crop/scale"
+  },
+  "tone": {
+    "meanLuma": 0.134,
+    "p99Luma": 0.671,
+    "meanSat": 0.134
+  },
+  "caveats": [
+    "status lights are as photographed (not animated): any blinking must be a drawn overlay",
+    "the upper rows are out of focus (depth of field): zoom on the bottom row of server fronts",
+    "a generic data-centre: which company runs it is not shown and must not be named"
+  ]
+}

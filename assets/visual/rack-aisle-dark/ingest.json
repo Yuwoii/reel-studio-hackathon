@@ -1,0 +1,130 @@
+{
+  "source": {
+    "type": "file",
+    "path": "research/v3/R3/proof-assets/src/px-5203849-orig.jpg",
+    "file": "source/pexels-5203849-orig.jpg"
+  },
+  "treat": {
+    "preset": "dark-photo@1",
+    "crop": {
+      "x0": 0.205,
+      "y0": 0.0285,
+      "x1": 1.0,
+      "y1": 0.9715
+    }
+  },
+  "manifest": {
+    "id": "rack-aisle-dark",
+    "version": 2,
+    "kind": "photo",
+    "sourceClass": "d",
+    "title": "Data-centre aisle (photo)",
+    "depicts": "A real data-centre aisle lined with black server racks, darkened.",
+    "tags": [
+      "server",
+      "rack",
+      "data-centre",
+      "datacenter",
+      "computers",
+      "cloud",
+      "aisle",
+      "hosting"
+    ],
+    "families": [
+      "systems",
+      "network",
+      "outage",
+      "security"
+    ],
+    "licence": {
+      "id": "Pexels",
+      "author": "Brett Sayles",
+      "sourceUrl": "https://www.pexels.com/photo/black-server-racks-5203849/",
+      "retrieved": "2026-10-29",
+      "modified": true,
+      "changes": "cropped to 9:16 on the racks (white side wall cut), scaled to 1620 px, darkened, desaturated, tone curve"
+    },
+    "provenance": "photograph",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "checked at plate resolution and 2x crops: no legible logo or product name"
+    },
+    "people": false,
+    "review": {
+      "people": {
+        "by": "W3a agent",
+        "date": "2026-10-31",
+        "file": "plate.jpg",
+        "result": "pass",
+        "note": "empty aisle; no person, face or reflection"
+      },
+      "brandMarks": {
+        "by": "W3a agent",
+        "date": "2026-10-31",
+        "file": "plate.jpg",
+        "result": "pass",
+        "note": "no legible logo or product name at plate resolution"
+      }
+    },
+    "anchors": {
+      "rackFront": {
+        "label": "a server rack",
+        "physical": "the front door of one rack of servers (perforated for airflow)",
+        "at": {
+          "x": 0.6793,
+          "y": 0.5
+        },
+        "box": {
+          "x0": 0.4774,
+          "y0": 0.0228,
+          "x1": 0.86,
+          "y1": 0.9772
+        }
+      },
+      "doorHandle": {
+        "label": "the rack door handle",
+        "physical": "the lock handle on the rack door",
+        "at": {
+          "x": 0.6963,
+          "y": 0.4544
+        },
+        "r": 0.0319
+      },
+      "racksRow": {
+        "label": "a row of racks",
+        "physical": "many racks side by side: the computers that run websites",
+        "at": {
+          "x": 0.3179,
+          "y": 0.447
+        },
+        "r": 0.3189
+      },
+      "cableTray": {
+        "label": "the cable tray",
+        "physical": "cables run above the racks",
+        "at": {
+          "x": 0.09,
+          "y": 0.07
+        },
+        "r": 0.07
+      }
+    },
+    "treatment": {
+      "preset": "dark-photo@1",
+      "crop": {
+        "x0": 0.205,
+        "y0": 0.0285,
+        "x1": 1.0,
+        "y1": 0.9715
+      },
+      "extra": "crop moved right/tighter (v2) so the bright white wall on the left is cut and the racks carry the frame"
+    },
+    "caveats": [
+      "a generic aisle: which company runs it is not shown and must not be named"
+    ],
+    "defaultAnchor": "rackFront"
+  }
+}

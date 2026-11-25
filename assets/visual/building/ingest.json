@@ -1,0 +1,50 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "building",
+    "version": 2,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "Building",
+    "title": "Generic office building (drawn)",
+    "depicts": "A drawn office building with a front door and a mailroom window just inside.",
+    "tags": [
+      "building",
+      "company",
+      "office",
+      "front-door",
+      "mailroom",
+      "organisation"
+    ],
+    "families": [
+      "security",
+      "network",
+      "systems"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-10-31",
+      "modified": false,
+      "changes": "source: remotion/v3/components/Building.tsx (meta src/v3/components-meta/Building.ts)"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic design, no product marks (D1 #2d)"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": [
+      "an analogy object: the company's front door stands for its load balancer / proxy"
+    ]
+  }
+}

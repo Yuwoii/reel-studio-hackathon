@@ -1,0 +1,168 @@
+{
+  "source": {
+    "type": "file",
+    "path": "research/v3/R3/candidates/3d/square-smartwatch.glb",
+    "file": "source/square-smartwatch.glb"
+  },
+  "treat": {
+    "preset": "none",
+    "out": "model.glb"
+  },
+  "manifest": {
+    "id": "watch-generic-3d",
+    "version": 1,
+    "kind": "model3d",
+    "sourceClass": "b",
+    "component": "Model3D",
+    "title": "Generic square smartwatch (3D, CC0)",
+    "depicts": "A 3D generic square smartwatch (no logo) that can turn over to show its sensor window.",
+    "tags": [
+      "watch",
+      "smartwatch",
+      "3d",
+      "sensor",
+      "heart-rate",
+      "ppg",
+      "led",
+      "wrist"
+    ],
+    "families": [
+      "science"
+    ],
+    "licence": {
+      "id": "CC0-1.0",
+      "author": "Innerscene",
+      "sourceUrl": "https://www.innerscene.com/tools/library/3d-parts/square-smartwatch-7b82b808",
+      "retrieved": "2026-10-29",
+      "modified": false,
+      "changes": "file unmodified; at render: band hidden, materials overridden, LED/sensor discs added"
+    },
+    "provenance": "unknown-3d",
+    "provenanceNote": "page: 'Original Innerscene model, released CC0'; GLB asset extras {license: CC0-1.0, original_design: true}; making method not stated. Allowed by name in data/asset-policy.json (D1 #1).",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic design, no logo or text in the model"
+    },
+    "people": false,
+    "review": {
+      "people": {
+        "by": "W3a agent",
+        "date": "2026-10-31",
+        "file": "model.glb",
+        "result": "pass",
+        "note": "object model only"
+      },
+      "brandMarks": {
+        "by": "W3a agent",
+        "date": "2026-10-31",
+        "file": "model.glb",
+        "result": "pass",
+        "note": "node names + R3 swiftshader previews: no logo/text geometry"
+      }
+    },
+    "anchors": {
+      "sensorWindow": {
+        "label": "the sensor window",
+        "physical": "round window over the optical heart sensor (the model's own part)",
+        "xyz": [
+          0,
+          0,
+          -0.0053
+        ],
+        "r": 0.0068
+      },
+      "led.left": {
+        "label": "a green LED",
+        "physical": "green light into the skin (disc added by us; flashes hundreds of times a second)",
+        "xyz": [
+          0.0012239999999999998,
+          0,
+          -0.0055
+        ]
+      },
+      "led.right": {
+        "label": "a green LED",
+        "physical": "green light into the skin (disc added by us)",
+        "xyz": [
+          -0.0012239999999999998,
+          0,
+          -0.0055
+        ]
+      },
+      "sensor.top": {
+        "label": "a light sensor",
+        "physical": "photodiode (disc added by us): measures the light coming back",
+        "xyz": [
+          0,
+          0.00272,
+          -0.0055
+        ]
+      },
+      "sensor.left": {
+        "label": "a light sensor",
+        "physical": "photodiode (disc added by us)",
+        "xyz": [
+          0.0031959999999999996,
+          -0.000476,
+          -0.0055
+        ]
+      },
+      "sensor.right": {
+        "label": "a light sensor",
+        "physical": "photodiode (disc added by us)",
+        "xyz": [
+          -0.0031959999999999996,
+          -0.000476,
+          -0.0055
+        ]
+      },
+      "sensor.bottom": {
+        "label": "a light sensor",
+        "physical": "photodiode (disc added by us)",
+        "xyz": [
+          0,
+          -0.0031959999999999996,
+          -0.0055
+        ]
+      },
+      "case": {
+        "label": "the watch",
+        "physical": "the whole watch body",
+        "xyz": [
+          0,
+          0,
+          0
+        ],
+        "r": 0.02
+      }
+    },
+    "defaultAnchor": "sensorWindow",
+    "treatment": {
+      "preset": "none"
+    },
+    "model": {
+      "pivot": [
+        0,
+        0.03095,
+        0.00514
+      ],
+      "hideNodes": [
+        "Band,",
+        "Strap_keepers",
+        "Tang_buckle"
+      ],
+      "added": [
+        "2 green LED discs + 4 light-sensor discs on the sensor window (illustrative layout = WatchBack)"
+      ],
+      "gl": "swangle"
+    },
+    "caveats": [
+      "the CC0 model's sensor window is a plain disc: the LEDs and light sensors are discs WE add (illustrative layout)",
+      "LEDs glow steadily (fast shimmer) when measuring, never at heart rate",
+      "anchor xyz in metres around the case centre (manifest pivot); r in metres"
+    ]
+  }
+}

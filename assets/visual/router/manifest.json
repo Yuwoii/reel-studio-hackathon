@@ -1,0 +1,126 @@
+{
+  "id": "router",
+  "version": 2,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Generic home router (drawn)",
+  "depicts": "A drawn home Wi-Fi router with two antennas and blinking status lights.",
+  "tags": [
+    "router",
+    "wifi",
+    "wi-fi",
+    "home",
+    "network",
+    "modem",
+    "antenna"
+  ],
+  "families": [
+    "network",
+    "security"
+  ],
+  "component": "Router",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-10-31",
+    "modified": false,
+    "changes": "source: remotion/v3/components/Router.tsx (meta src/v3/components-meta/Router.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic design, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "body": {
+      "label": "the router",
+      "physical": "the home Wi-Fi box",
+      "at": {
+        "x": 0.5,
+        "y": 0.7167
+      },
+      "r": 0.4821
+    },
+    "antenna.left": {
+      "label": "an antenna",
+      "physical": "sends and receives the Wi-Fi radio signal",
+      "at": {
+        "x": 0.1429,
+        "y": 0.0667
+      },
+      "r": 0.0464
+    },
+    "antenna.right": {
+      "label": "an antenna",
+      "physical": "sends and receives the Wi-Fi radio signal",
+      "at": {
+        "x": 0.8571,
+        "y": 0.0667
+      },
+      "r": 0.0464
+    },
+    "led.a": {
+      "label": "a status light",
+      "physical": "one status LED: blinks when data passes through",
+      "at": {
+        "x": 0.2321,
+        "y": 0.7167
+      },
+      "r": 0.0357
+    },
+    "led.b": {
+      "label": "a status light",
+      "physical": "one status LED: blinks when data passes through",
+      "at": {
+        "x": 0.3571,
+        "y": 0.7167
+      },
+      "r": 0.0357
+    },
+    "led.c": {
+      "label": "a status light",
+      "physical": "one status LED: blinks when data passes through",
+      "at": {
+        "x": 0.4821,
+        "y": 0.7167
+      },
+      "r": 0.0357
+    },
+    "led.d": {
+      "label": "a status light",
+      "physical": "one status LED: blinks when data passes through",
+      "at": {
+        "x": 0.6071,
+        "y": 0.7167
+      },
+      "r": 0.0357
+    },
+    "leds": {
+      "label": "the status lights",
+      "physical": "blink when data passes through",
+      "at": {
+        "x": 0.4196,
+        "y": 0.7167
+      },
+      "r": 0.2339
+    },
+    "port": {
+      "label": "the cable port",
+      "physical": "where the line to the internet plugs in",
+      "at": {
+        "x": 0.7768,
+        "y": 0.7167
+      },
+      "r": 0.1
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": []
+}

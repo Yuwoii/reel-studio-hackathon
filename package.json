@@ -1,0 +1,45 @@
+{
+  "name": "reel-studio-hackathon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Topic in, explainer reel out: Claude director + edge-tts + local Remotion render",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "doctor": "node --import tsx scripts/doctor.ts",
+    "reel": "node --import tsx scripts/reel.ts",
+    "studio": "remotion studio remotion/index.ts"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "0.3.304",
+    "@react-three/fiber": "9.2.0",
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/fonts": "4.0.534",
+    "@remotion/google-fonts": "4.0.534",
+    "@remotion/lambda": "4.0.534",
+    "@remotion/media": "4.0.534",
+    "@remotion/media-utils": "4.0.534",
+    "@remotion/motion-blur": "4.0.534",
+    "@remotion/noise": "4.0.534",
+    "@remotion/paths": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "@remotion/shapes": "4.0.534",
+    "@remotion/three": "4.0.534",
+    "@remotion/transitions": "4.0.534",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.534",
+    "three": "0.178.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "@types/react": "19.2.2",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}

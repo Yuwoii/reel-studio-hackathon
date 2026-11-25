@@ -1,0 +1,50 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "skin-ppg",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "SkinPPG",
+    "title": "Wrist skin cross-section under a watch (drawn)",
+    "depicts": "Drawn side cut of the wrist under a smartwatch: skin, tiny vessels that swell per heartbeat, green light going in and back to the sensor.",
+    "tags": [
+      "heart-rate",
+      "ppg",
+      "optical-sensor",
+      "smartwatch",
+      "skin",
+      "blood-vessels",
+      "green-light",
+      "pulse",
+      "wrist",
+      "fitness-tracker"
+    ],
+    "families": [
+      "science"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-11-03",
+      "modified": false,
+      "changes": "source: remotion/v3/components/SkinPPG.tsx (meta src/v3/components-meta/SkinPPG.ts)"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic watch, no product marks (D1 #2d)"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": []
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "source": {
+    "type": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Patterned_Tabby_Cat_Standing.jpg",
+    "file": "source/wm-patterned-tabby-cat-standing.jpg"
+  },
+  "treat": {
+    "preset": "content-photo@1",
+    "crop": {
+      "x0": 0,
+      "y0": 0,
+      "x1": 1,
+      "y1": 0.8067
+    },
+    "outW": 1080
+  },
+  "manifest": {
+    "id": "cat-photo",
+    "version": 1,
+    "kind": "photo",
+    "sourceClass": "d",
+    "title": "Cat picture (photo, shown as content)",
+    "depicts": "A real photo of a tabby-and-white cat standing up, looking at the camera with one paw raised; square crop.",
+    "tags": [
+      "cat",
+      "pet",
+      "photo",
+      "picture",
+      "post",
+      "upload",
+      "content",
+      "kitten"
+    ],
+    "families": [
+      "security",
+      "network",
+      "data"
+    ],
+    "licence": {
+      "id": "CC0-1.0",
+      "author": "Panini! (Wikimedia Commons user)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patterned_Tabby_Cat_Standing.jpg",
+      "retrieved": "2026-11-02",
+      "modified": true,
+      "changes": "square crop (top 80.7 %: ears to belly), scaled to 1080 px, slightly darkened and desaturated, highlights capped at 84 %, metadata stripped"
+    },
+    "provenance": "photograph",
+    "provenanceNote": "Commons file page: 'Own work' by uploader Panini!, uploaded 2024-06-11, CC0 1.0 Universal Public Domain Dedication; EXIF date 2021-09-16 (the uploader's own cat)",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "baked-mask",
+      "removed": [
+        "stray purple pen mark on the chest"
+      ],
+      "masks": [
+        {
+          "covers": [
+            "stray purple pen mark on the chest"
+          ],
+          "shape": {
+            "kind": "rect",
+            "x0": 0.472,
+            "y0": 0.626,
+            "x1": 0.5,
+            "y1": 0.644
+          },
+          "fill": "solid-local"
+        }
+      ],
+      "notes": "not a brand: a tiny purple edit mark in the source, filled from the surrounding fur at source resolution; otherwise a cat on plain floor tiles: no logos, text, collars or products in frame"
+    },
+    "people": false,
+    "review": {
+      "people": {
+        "by": "S2 visuals agent",
+        "date": "2026-11-02",
+        "file": "plate.jpg",
+        "result": "pass",
+        "note": "a cat on floor tiles; no person, face, hand or reflection in frame"
+      },
+      "brandMarks": {
+        "by": "S2 visuals agent",
+        "date": "2026-11-02",
+        "file": "plate.jpg",
+        "result": "pass",
+        "note": "viewed plate.jpg full frame contrast-boosted and a 2x crop of the masked chest spot: no logo, text or product; stray pen mark gone"
+      }
+    },
+    "anchors": {
+      "cat": {
+        "label": "the cat picture",
+        "physical": "the photo you post (the content that gets locked for the trip)",
+        "at": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "r": 0.5
+      },
+      "face": {
+        "label": "the cat's face",
+        "physical": "the cat looking at the camera",
+        "at": {
+          "x": 0.49,
+          "y": 0.25
+        },
+        "r": 0.2
+      },
+      "paw": {
+        "label": "the raised paw",
+        "physical": "the cat's paw reaching toward the camera",
+        "at": {
+          "x": 0.76,
+          "y": 0.77
+        },
+        "r": 0.13
+      }
+    },
+    "defaultAnchor": "face",
+    "treatment": {
+      "preset": "content-photo@1"
+    },
+    "caveats": [
+      "CONTENT ONLY (owner S1 #3): show it inside a drawn screen, post or card (Phone screen 'post', CatCard, LockBox) \u2014 never as a full-frame backdrop or a picture of a place",
+      "the only real photo allowed in the TLS reels; everything else stays drawn"
+    ]
+  }
+}

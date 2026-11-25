@@ -1,0 +1,27 @@
+{
+  "decidedAt": "2026-10-31",
+  "source": "research/v3/D1-DECISIONS-V3.md (owner: 'all your recommendations'); ADR-002 §2.8, §11",
+  "allowedClasses": ["a", "b", "c", "d"],
+  "allowedProvenance": ["photograph", "screen-capture", "hand-illustration", "hand-3d"],
+  "provenanceExceptions": [
+    {
+      "assetId": "watch-generic-3d",
+      "provenance": "unknown-3d",
+      "reason": "D1 #1 names the Innerscene watch as clear-origin CC0 3D ('Original Innerscene model, released CC0'); its making method is not stated, so it is recorded as unknown-3d and allowed by name only"
+    }
+  ],
+  "refusedSourceHosts": ["grab3d.com"],
+  "ownerWithdrawn": [
+    { "assetId": "rack-aisle-dark", "decided": "2026-11-02", "reason": "S1 owner feedback #3: no real photos of places (server rooms, mailrooms, lobbies); computers are drawn (ServerRack / WebsiteCluster)" },
+    { "assetId": "server-leds-dark", "decided": "2026-11-02", "reason": "S1 owner feedback #3: no real photos of places or things (S1's server-front photo); computers are drawn (ServerRack / WebsiteCluster)" }
+  ],
+  "allowedLicences": ["own-work", "CC0-1.0", "CC-BY-4.0", "Pexels", "Unsplash", "example-domain"],
+  "brandMarksAllowed": false,
+  "realIssuerNames": false,
+  "genericIssuer": "a certificate authority",
+  "annotationGlowOnPhotos": true,
+  "live3d": true,
+  "gl3d": "swangle",
+  "tone": { "maxP99Luma": 0.85, "maxMeanSat": 0.2 },
+  "attribution": "caption"
+}

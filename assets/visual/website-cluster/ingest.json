@@ -1,0 +1,52 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "website-cluster",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "WebsiteCluster",
+    "title": "Website: front server + computers (drawn)",
+    "depicts": "A drawn website that opens into a front server holding the key and a row of computers inside a dashed 'one website' outline.",
+    "tags": [
+      "website",
+      "server",
+      "front-server",
+      "computers",
+      "load-balancer",
+      "tls-termination",
+      "backend",
+      "cluster"
+    ],
+    "families": [
+      "network",
+      "security",
+      "systems"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-11-02",
+      "modified": false,
+      "changes": "source: remotion/v3/components/WebsiteCluster.tsx (meta src/v3/components-meta/WebsiteCluster.ts)"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic design, no product marks (D1 #2d)"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": [
+      "simplified: a real site may have several front servers / a CDN; the front server is where TLS ends (termination)"
+    ]
+  }
+}

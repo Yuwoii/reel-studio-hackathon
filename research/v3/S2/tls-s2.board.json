@@ -1,0 +1,3186 @@
+{
+ "schema": "v3.0",
+ "libraryVersion": "v3-s2",
+ "series": "HOW IT WORKS",
+ "mode": "concept",
+ "family": "security",
+ "codename": "THE-LITTLE-S",
+ "headerMode": "SPEC",
+ "headerRight": "HTTPS",
+ "datafield": {
+  "preset": "none",
+  "seed": "tls"
+ },
+ "blur": {
+  "shutterAngle": 120
+ },
+ "music": {
+  "bed": "dark-pulse"
+ },
+ "sources": [
+  {
+   "id": "cloudflare-what-is-https",
+   "title": "Cloudflare Learning, What is HTTPS?",
+   "ref": "https://www.cloudflare.com/learning/ssl/what-is-https/"
+  },
+  {
+   "id": "bleepingcomputer-full-urls",
+   "title": "BleepingComputer: Chrome hides the protocol part",
+   "ref": "https://www.bleepingcomputer.com/news/google/google-chrome-adding-option-to-always-show-full-urls"
+  },
+  {
+   "id": "imperialviolet-overclocking-ssl",
+   "title": "Adam Langley",
+   "ref": "https://www.imperialviolet.org/2010/06/25/overclocking-ssl.html"
+  },
+  {
+   "id": "nginx-terminating-ssl-tcp",
+   "title": "NGINX docs",
+   "ref": "https://docs.nginx.com/nginx/admin-guide/security-controls/terminating-ssl-tcp/"
+  },
+  {
+   "id": "nginx-upstream-tls",
+   "title": "NGINX, \"Securing HTTP Traffic to Upstream Servers\"",
+   "ref": "https://docs.nginx.com/nginx/admin-guide/security-controls/securing-http-traffic-upstream/"
+  },
+  {
+   "id": "cloudflare-ssl-modes",
+   "title": "Cloudflare Docs: Encryption modes",
+   "ref": "https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/"
+  },
+  {
+   "id": "cloudflare-what-is-sni",
+   "title": "Cloudflare Learning, \"What is SNI?\": the client must \"specify the domain name it is trying to reach in the first step of",
+   "ref": "https://www.cloudflare.com/learning/ssl/what-is-sni/"
+  },
+  {
+   "id": "mslearn-appgw-tls-overview",
+   "title": "Microsoft Learn, \"Overview of TLS termination and end to end TLS with Application Gateway\"",
+   "ref": "https://learn.microsoft.com/en-us/azure/application-gateway/ssl-overview"
+  }
+ ],
+ "leadMs": 300,
+ "assets": [
+  {
+   "id": "phone",
+   "version": 1
+  },
+  {
+   "id": "router",
+   "version": 2
+  },
+  {
+   "id": "wifi-signal",
+   "version": 1
+  },
+  {
+   "id": "website-cluster",
+   "version": 1
+  },
+  {
+   "id": "lock-box",
+   "version": 1
+  },
+  {
+   "id": "padlock",
+   "version": 1
+  },
+  {
+   "id": "photo-card",
+   "version": 1
+  },
+  {
+   "id": "snooper",
+   "version": 1
+  },
+  {
+   "id": "cat-photo",
+   "version": 1
+  }
+ ],
+ "shots": [
+  {
+   "id": "s01",
+   "fromBeat": "b01",
+   "subject": "phone",
+   "role": "real",
+   "enter": "cut"
+  },
+  {
+   "id": "s02",
+   "fromBeat": "b03",
+   "subject": "card1",
+   "role": "real",
+   "enter": "move"
+  },
+  {
+   "id": "s03",
+   "fromBeat": "b04",
+   "subject": "router",
+   "role": "real",
+   "enter": "move"
+  },
+  {
+   "id": "s04",
+   "fromBeat": "b05",
+   "subject": "phone",
+   "role": "real+analogy",
+   "enter": "cut"
+  },
+  {
+   "id": "s05",
+   "fromBeat": "b06",
+   "subject": "router",
+   "role": "real+analogy",
+   "enter": "move"
+  },
+  {
+   "id": "s06",
+   "fromBeat": "b07",
+   "subject": "box",
+   "role": "analogy",
+   "enter": "move"
+  },
+  {
+   "id": "s07",
+   "fromBeat": "b08",
+   "subject": "site",
+   "role": "real+analogy",
+   "enter": "move"
+  },
+  {
+   "id": "s08",
+   "fromBeat": "b09",
+   "subject": "site",
+   "role": "real",
+   "enter": "move"
+  },
+  {
+   "id": "s09",
+   "fromBeat": "b11",
+   "subject": "site",
+   "role": "real+analogy",
+   "enter": "move"
+  },
+  {
+   "id": "s10",
+   "fromBeat": "b13",
+   "subject": "site",
+   "role": "real+analogy",
+   "enter": "move"
+  },
+  {
+   "id": "s11",
+   "fromBeat": "b15",
+   "subject": "site",
+   "role": "real+analogy",
+   "enter": "move"
+  },
+  {
+   "id": "s12",
+   "fromBeat": "b17",
+   "subject": "site",
+   "role": "real",
+   "enter": "move"
+  },
+  {
+   "id": "s13",
+   "fromBeat": "b19",
+   "subject": "phone",
+   "role": "real",
+   "enter": "match",
+   "matchOf": "s01"
+  },
+  {
+   "id": "s14",
+   "fromBeat": "b20",
+   "subject": "site",
+   "role": "real+analogy",
+   "enter": "move"
+  },
+  {
+   "id": "s15",
+   "fromBeat": "b22",
+   "subject": "phone",
+   "role": "real",
+   "enter": "cut"
+  }
+ ],
+ "stations": [
+  {
+   "id": "st-trip",
+   "x": -200,
+   "y": -200,
+   "w": 2200,
+   "h": 2200
+  }
+ ],
+ "world": [
+  {
+   "id": "phone",
+   "component": "Phone",
+   "station": "st-trip",
+   "x": 0,
+   "y": 0,
+   "z": 2,
+   "asset": "phone",
+   "props": {
+    "screen": "post",
+    "bar": "idle",
+    "host": "example.com",
+    "lock": true
+   }
+  },
+  {
+   "id": "wifi",
+   "component": "WifiSignal",
+   "station": "st-trip",
+   "x": 620,
+   "y": 40,
+   "z": 2,
+   "asset": "wifi-signal",
+   "props": {}
+  },
+  {
+   "id": "router",
+   "component": "Router",
+   "station": "st-trip",
+   "x": 1000,
+   "y": 300,
+   "z": 2,
+   "asset": "router",
+   "props": {}
+  },
+  {
+   "id": "site",
+   "component": "WebsiteCluster",
+   "station": "st-trip",
+   "x": 560,
+   "y": 1000,
+   "z": 2,
+   "asset": "website-cluster",
+   "props": {
+    "name": "example.com",
+    "computers": 4,
+    "outline": true,
+    "key": true
+   }
+  },
+  {
+   "id": "fig-route",
+   "component": "Figure",
+   "station": "st-trip",
+   "x": 0,
+   "y": 0,
+   "z": 1,
+   "plate": false,
+   "locked": true,
+   "props": {},
+   "figure": [
+    {
+     "id": "route",
+     "kind": "polyline",
+     "geom": {
+      "x": 0,
+      "y": 0,
+      "points": [
+       [
+        440,
+        418
+       ],
+       [
+        750,
+        380
+       ],
+       [
+        1280,
+        380
+       ],
+       [
+        1435,
+        515
+       ],
+       [
+        1435,
+        880
+       ],
+       [
+        480,
+        880
+       ],
+       [
+        480,
+        1400
+       ],
+       [
+        630,
+        1400
+       ]
+      ]
+     },
+     "stroke": "textFaint",
+     "strokeW": "bold",
+     "enter": {
+      "at": "phraseStart",
+      "how": "drawOn"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ring-s",
+   "component": "AnchorRing",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "phone",
+     "anchor": "urlbar.schemeS"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "r": 62,
+    "tone": "accent",
+    "pulse": true
+   }
+  },
+  {
+   "id": "card1",
+   "component": "PhotoCard",
+   "station": "st-trip",
+   "z": 5,
+   "asset": "photo-card",
+   "bind": {
+    "to": {
+     "instance": "phone",
+     "anchor": "screen"
+    },
+    "space": "world",
+    "dy": -22
+   },
+   "props": {
+    "w": 120
+   }
+  },
+  {
+   "id": "ring-s2",
+   "component": "AnchorRing",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "phone",
+     "anchor": "urlbar.schemeS"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "r": 34,
+    "tone": "accent",
+    "pulse": true
+   }
+  },
+  {
+   "id": "pill-wifi",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "wifi",
+     "anchor": "wifi"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "Wi-Fi",
+    "dx": 0,
+    "dy": -150,
+    "tone": "neutral",
+    "size": "lg"
+   }
+  },
+  {
+   "id": "pill-routers",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "router",
+     "anchor": "antenna.right"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "routers",
+    "dx": -200,
+    "dy": -150,
+    "tone": "neutral",
+    "size": "lg"
+   }
+  },
+  {
+   "id": "pill-cables",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "router",
+     "anchor": "port"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "cables",
+    "dx": -180,
+    "dy": 120,
+    "tone": "neutral",
+    "size": "lg"
+   }
+  },
+  {
+   "id": "box",
+   "component": "LockBox",
+   "station": "st-trip",
+   "z": 4,
+   "asset": "lock-box",
+   "x": 490,
+   "y": 286,
+   "props": {
+    "w": 260,
+    "address": "example.com"
+   }
+  },
+  {
+   "id": "snooper",
+   "component": "Snooper",
+   "station": "st-trip",
+   "z": 3,
+   "asset": "snooper",
+   "x": 1500,
+   "y": 60,
+   "props": {
+    "w": 300,
+    "facing": "left"
+   }
+  },
+  {
+   "id": "pill-snoop",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "snooper",
+     "anchor": "head"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "snooping",
+    "dx": -20,
+    "dy": -170,
+    "tone": "neutral",
+    "size": "lg"
+   }
+  },
+  {
+   "id": "ring-label",
+   "component": "AnchorRing",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "box",
+     "anchor": "label"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "r": 96,
+    "tone": "neutral",
+    "pulse": true
+   }
+  },
+  {
+   "id": "pill-tls",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "box",
+     "anchor": "padlock"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "TLS",
+    "dx": 0,
+    "dy": -190,
+    "tone": "accent",
+    "size": "xl"
+   }
+  },
+  {
+   "id": "ring-unlock",
+   "component": "AnchorRing",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "box",
+     "anchor": "padlock"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "r": 44,
+    "tone": "accent",
+    "pulse": true
+   }
+  },
+  {
+   "id": "bxa",
+   "component": "LockBox",
+   "station": "st-trip",
+   "z": 4,
+   "asset": "lock-box",
+   "x": 352,
+   "y": 769,
+   "scale": 0.6,
+   "props": {
+    "w": 260,
+    "address": "example.com"
+   }
+  },
+  {
+   "id": "bxb",
+   "component": "LockBox",
+   "station": "st-trip",
+   "z": 4,
+   "asset": "lock-box",
+   "x": 202,
+   "y": 1609,
+   "scale": 0.6,
+   "props": {
+    "w": 260,
+    "address": "example.com"
+   }
+  },
+  {
+   "id": "pill-front",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "site",
+     "anchor": "front"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "front server",
+    "dx": 60,
+    "dy": -420,
+    "tone": "accent",
+    "size": "xl"
+   }
+  },
+  {
+   "id": "ring-key",
+   "component": "AnchorRing",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "site",
+     "anchor": "front.key"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "r": 60,
+    "tone": "accent",
+    "pulse": true
+   }
+  },
+  {
+   "id": "card2",
+   "component": "PhotoCard",
+   "station": "st-trip",
+   "z": 5,
+   "asset": "photo-card",
+   "x": 410,
+   "y": 1265,
+   "props": {
+    "w": 120
+   }
+  },
+  {
+   "id": "pill-normal",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "site",
+     "anchor": "check"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "normal",
+    "dx": 40,
+    "dy": -120,
+    "tone": "accent",
+    "size": "lg"
+   }
+  },
+  {
+   "id": "fig-lock",
+   "component": "Figure",
+   "station": "st-trip",
+   "x": 0,
+   "y": 0,
+   "z": 1,
+   "plate": false,
+   "locked": true,
+   "props": {},
+   "figure": [
+    {
+     "id": "lockline",
+     "kind": "polyline",
+     "geom": {
+      "x": 0,
+      "y": 0,
+      "points": [
+       [
+        440,
+        418
+       ],
+       [
+        750,
+        380
+       ],
+       [
+        1435,
+        515
+       ],
+       [
+        1435,
+        880
+       ],
+       [
+        480,
+        880
+       ],
+       [
+        480,
+        1400
+       ],
+       [
+        630,
+        1400
+       ]
+      ]
+     },
+     "stroke": "accent",
+     "strokeW": "bold",
+     "enter": {
+      "at": {
+       "word": 2
+      },
+      "how": "drawOn"
+     }
+    }
+   ]
+  },
+  {
+   "id": "trace-lock",
+   "component": "Trace",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "phone",
+     "anchor": "screen"
+    },
+    "space": "screen",
+    "dx": 132,
+    "dy": -13
+   },
+   "props": {
+    "pts": [
+     {
+      "dx": 186,
+      "dy": -23
+     },
+     {
+      "dx": 597,
+      "dy": 58
+     },
+     {
+      "dx": 597,
+      "dy": 277
+     },
+     {
+      "dx": 24,
+      "dy": 277
+     },
+     {
+      "dx": 24,
+      "dy": 589
+     },
+     {
+      "dx": 114,
+      "dy": 589
+     }
+    ],
+    "style": "data",
+    "arrow": false,
+    "dot": true
+   }
+  },
+  {
+   "id": "lock-end",
+   "component": "Padlock",
+   "station": "st-trip",
+   "z": 6,
+   "asset": "padlock",
+   "x": 530,
+   "y": 1252,
+   "props": {
+    "w": 200,
+    "tone": "accent"
+   }
+  },
+  {
+   "id": "pill-term",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "lock-end",
+     "anchor": "lock"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "TLS termination",
+    "dx": 60,
+    "dy": -330,
+    "tone": "accent",
+    "size": "xl"
+   }
+  },
+  {
+   "id": "ring-front",
+   "component": "AnchorRing",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "site",
+     "anchor": "front"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "r": 150,
+    "tone": "accent",
+    "pulse": true
+   }
+  },
+  {
+   "id": "bx1",
+   "component": "LockBox",
+   "station": "st-trip",
+   "z": 4,
+   "asset": "lock-box",
+   "x": 392,
+   "y": 1054,
+   "scale": 0.6,
+   "props": {
+    "w": 260,
+    "address": "example.com"
+   }
+  },
+  {
+   "id": "bx2",
+   "component": "LockBox",
+   "station": "st-trip",
+   "z": 4,
+   "asset": "lock-box",
+   "x": 392,
+   "y": 1289,
+   "scale": 0.6,
+   "props": {
+    "w": 260,
+    "address": "example.com"
+   }
+  },
+  {
+   "id": "bx3",
+   "component": "LockBox",
+   "station": "st-trip",
+   "z": 4,
+   "asset": "lock-box",
+   "x": 392,
+   "y": 1524,
+   "scale": 0.6,
+   "props": {
+    "w": 260,
+    "address": "example.com"
+   }
+  },
+  {
+   "id": "pill-work",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "site",
+     "anchor": "front"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "work",
+    "dx": 150,
+    "dy": -200,
+    "tone": "accent",
+    "size": "lg"
+   }
+  },
+  {
+   "id": "pill-unlocked",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "card2",
+     "anchor": "card"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "unlocked",
+    "dx": 0,
+    "dy": -170,
+    "tone": "neutral",
+    "size": "lg"
+   }
+  },
+  {
+   "id": "relock",
+   "component": "Padlock",
+   "station": "st-trip",
+   "z": 6,
+   "asset": "padlock",
+   "x": 1435.25,
+   "y": 1232,
+   "props": {
+    "w": 140,
+    "tone": "accent"
+   }
+  },
+  {
+   "id": "pill-again",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "card2",
+     "anchor": "card"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "lock it again",
+    "dx": -250,
+    "dy": -170,
+    "tone": "accent",
+    "size": "lg"
+   }
+  },
+  {
+   "id": "card3",
+   "component": "PhotoCard",
+   "station": "st-trip",
+   "z": 5,
+   "asset": "photo-card",
+   "x": 790,
+   "y": 1383,
+   "props": {
+    "w": 120
+   }
+  },
+  {
+   "id": "pill-dont",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "card3",
+     "anchor": "card"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "some don't",
+    "dx": -120,
+    "dy": -170,
+    "tone": "neutral",
+    "size": "lg"
+   }
+  },
+  {
+   "id": "ring-s3",
+   "component": "AnchorRing",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "phone",
+     "anchor": "urlbar.schemeS"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "r": 62,
+    "tone": "accent",
+    "pulse": true
+   }
+  },
+  {
+   "id": "pill-secure",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "phone",
+     "anchor": "urlbar.schemeS"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "secure",
+    "dx": 0,
+    "dy": -150,
+    "tone": "accent",
+    "size": "xl"
+   }
+  },
+  {
+   "id": "box2",
+   "component": "LockBox",
+   "station": "st-trip",
+   "z": 4,
+   "asset": "lock-box",
+   "x": 490,
+   "y": 286,
+   "props": {
+    "w": 260,
+    "address": "example.com"
+   }
+  },
+  {
+   "id": "trace-lock2",
+   "component": "Trace",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "phone",
+     "anchor": "screen"
+    },
+    "space": "screen",
+    "dx": 132,
+    "dy": -13
+   },
+   "props": {
+    "pts": [
+     {
+      "dx": 186,
+      "dy": -23
+     },
+     {
+      "dx": 597,
+      "dy": 58
+     },
+     {
+      "dx": 597,
+      "dy": 277
+     },
+     {
+      "dx": 24,
+      "dy": 277
+     },
+     {
+      "dx": 24,
+      "dy": 589
+     },
+     {
+      "dx": 114,
+      "dy": 589
+     }
+    ],
+    "style": "data",
+    "arrow": true,
+    "dot": false
+   }
+  },
+  {
+   "id": "pill-up",
+   "component": "LabelPill",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "site",
+     "anchor": "name"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "text": "up to the website",
+    "dx": 160,
+    "dy": -110,
+    "tone": "neutral",
+    "size": "lg"
+   }
+  },
+  {
+   "id": "phone2",
+   "component": "Phone",
+   "station": "st-trip",
+   "x": 560,
+   "y": 80,
+   "scale": 0.8,
+   "z": 2,
+   "asset": "phone",
+   "props": {
+    "screen": "blank"
+   }
+  },
+  {
+   "id": "card-cta",
+   "component": "PhotoCard",
+   "station": "st-trip",
+   "z": 5,
+   "asset": "photo-card",
+   "bind": {
+    "to": {
+     "instance": "phone",
+     "anchor": "screen"
+    },
+    "space": "world",
+    "dy": -22
+   },
+   "props": {
+    "w": 160
+   }
+  },
+  {
+   "id": "ring-s4",
+   "component": "AnchorRing",
+   "station": "st-trip",
+   "bind": {
+    "to": {
+     "instance": "phone",
+     "anchor": "urlbar.schemeS"
+    },
+    "space": "screen"
+   },
+   "props": {
+    "r": 44,
+    "tone": "accent",
+    "pulse": true
+   }
+  }
+ ],
+ "camera0": {
+  "target": {
+   "x": 210,
+   "y": 310
+  },
+  "zoom": 2.4
+ },
+ "beats": [
+  {
+   "id": "b01",
+   "act": "hook",
+   "part": "hook",
+   "phrase": "What does this little 's' actually stand for?",
+   "keyword": "s",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 900,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     },
+     "target": {
+      "x": 200,
+      "y": 296
+     },
+     "zoom": 2.6,
+     "ease": "bible",
+     "durF": 24
+    },
+    {
+     "at": "keyword",
+     "target": {
+      "instance": "phone",
+      "anchor": "urlbar.schemeS"
+     },
+     "zoom": 4,
+     "ease": "snap",
+     "durF": 14
+    }
+   ],
+   "actions": [
+    {
+     "target": "phone",
+     "do": "state",
+     "state": "idle",
+     "props": {
+      "bar": "tapped"
+     },
+     "at": {
+      "word": 1
+     }
+    },
+    {
+     "target": "phone",
+     "do": "state",
+     "state": "idle",
+     "props": {
+      "highlight": "s"
+     },
+     "at": "keyword"
+    },
+    {
+     "target": "ring-s",
+     "do": "enter",
+     "at": {
+      "ref": "keyword",
+      "offsetF": 8
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": "keyword",
+     "gainDb": -6
+    }
+   ]
+  },
+  {
+   "id": "b02",
+   "act": "hook",
+   "part": "hook",
+   "phrase": "Say you post a cat picture.",
+   "keyword": "cat",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 250,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -8
+     },
+     "target": {
+      "x": 220,
+      "y": 470
+     },
+     "zoom": 1.35,
+     "ease": "longPan",
+     "durF": 28
+    }
+   ],
+   "actions": [
+    {
+     "target": "ring-s",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -8
+     }
+    },
+    {
+     "target": "phone",
+     "do": "pulse",
+     "at": {
+      "word": 2
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick",
+     "at": {
+      "word": 2
+     },
+     "gainDb": -8
+    }
+   ]
+  },
+  {
+   "id": "b03",
+   "act": "ground",
+   "part": "context",
+   "phrase": "That 's' keeps it safe while it travels from your phone to the website.",
+   "keyword": "safe",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 300,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     },
+     "target": {
+      "x": 525,
+      "y": 420
+     },
+     "zoom": 1.05,
+     "ease": "bible",
+     "durF": 26
+    },
+    {
+     "at": {
+      "word": 8
+     },
+     "target": {
+      "x": 780,
+      "y": 800
+     },
+     "zoom": 0.7,
+     "ease": "longPan",
+     "durF": 30
+    }
+   ],
+   "actions": [
+    {
+     "target": "ring-s2",
+     "do": "enter",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": 30
+     }
+    },
+    {
+     "target": "phone",
+     "do": "pulse",
+     "at": "keyword"
+    },
+    {
+     "target": "fig-route",
+     "do": "enter",
+     "at": {
+      "word": 8
+     }
+    },
+    {
+     "target": "ring-s2",
+     "do": "exit",
+     "at": {
+      "ref": "phraseEnd",
+      "offsetF": 2
+     }
+    },
+    {
+     "target": "site",
+     "do": "pulse",
+     "at": {
+      "word": 13
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": {
+      "word": 8
+     },
+     "gainDb": -8
+    }
+   ]
+  },
+  {
+   "id": "b04",
+   "act": "ground",
+   "part": "context",
+   "phrase": "Because on the way, it hops through Wi-Fi, routers and cables you don't own.",
+   "keyword": "hops",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 450,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     },
+     "target": {
+      "x": 1090,
+      "y": 330
+     },
+     "zoom": 0.95,
+     "ease": "bible",
+     "durF": 30
+    },
+    {
+     "at": {
+      "word": 10
+     },
+     "target": {
+      "x": 960,
+      "y": 1000
+     },
+     "zoom": 0.7,
+     "ease": "longPan",
+     "durF": 34
+    }
+   ],
+   "actions": [
+    {
+     "target": "wifi",
+     "do": "state",
+     "state": "active",
+     "at": {
+      "word": 7
+     }
+    },
+    {
+     "target": "pill-wifi",
+     "do": "enter",
+     "at": {
+      "word": 7
+     }
+    },
+    {
+     "target": "router",
+     "do": "state",
+     "state": "active",
+     "at": {
+      "word": 8
+     }
+    },
+    {
+     "target": "pill-routers",
+     "do": "enter",
+     "at": {
+      "word": 8
+     }
+    },
+    {
+     "target": "pill-wifi",
+     "do": "exit",
+     "at": {
+      "word": 10
+     }
+    },
+    {
+     "target": "pill-cables",
+     "do": "enter",
+     "at": {
+      "word": 10
+     }
+    },
+    {
+     "target": "pill-routers",
+     "do": "exit",
+     "at": {
+      "word": 10
+     }
+    },
+    {
+     "target": "site",
+     "do": "pulse",
+     "at": {
+      "word": 13
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick",
+     "at": {
+      "word": 7
+     },
+     "gainDb": -8
+    },
+    {
+     "type": "tick",
+     "at": {
+      "word": 8
+     },
+     "gainDb": -8
+    }
+   ]
+  },
+  {
+   "id": "b05",
+   "act": "ground",
+   "part": "context",
+   "phrase": "So before it leaves your phone, your browser locks it.",
+   "keyword": "locks",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 250,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -10
+     },
+     "target": {
+      "x": 440,
+      "y": 470
+     },
+     "zoom": 1.2,
+     "ease": "longPan",
+     "durF": 30
+    }
+   ],
+   "actions": [
+    {
+     "target": "pill-cables",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -10
+     }
+    },
+    {
+     "target": "wifi",
+     "do": "state",
+     "state": "idle",
+     "at": "phraseStart"
+    },
+    {
+     "target": "router",
+     "do": "state",
+     "state": "idle",
+     "at": "phraseStart"
+    },
+    {
+     "target": "card1",
+     "do": "enter",
+     "at": {
+      "word": 1
+     }
+    },
+    {
+     "target": "phone",
+     "do": "state",
+     "state": "idle",
+     "props": {
+      "photo": "none"
+     },
+     "at": {
+      "word": 1
+     }
+    },
+    {
+     "target": "card1",
+     "do": "travel",
+     "at": {
+      "word": 3
+     },
+     "via": [
+      {
+       "instance": "phone",
+       "anchor": "screen",
+       "dx": 400,
+       "dy": -45
+      }
+     ],
+     "durF": 14
+    },
+    {
+     "target": "box",
+     "do": "enter",
+     "at": {
+      "word": 5
+     }
+    },
+    {
+     "target": "box",
+     "do": "state",
+     "state": "locked",
+     "at": {
+      "ref": "keyword",
+      "offsetF": -15
+     }
+    },
+    {
+     "target": "card1",
+     "do": "exit",
+     "at": {
+      "ref": "keyword",
+      "offsetF": -15
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "type": "thud",
+     "at": {
+      "ref": "keyword",
+      "offsetF": 3
+     },
+     "gainDb": -6
+    }
+   ]
+  },
+  {
+   "id": "b06",
+   "act": "ground",
+   "part": "context",
+   "phrase": "Anyone snooping can see where it's going, but not what's inside.",
+   "keyword": "snooping",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 350,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -4
+     },
+     "target": {
+      "x": 1475,
+      "y": 300
+     },
+     "zoom": 1.35,
+     "ease": "longPan",
+     "durF": 34
+    }
+   ],
+   "actions": [
+    {
+     "target": "box",
+     "do": "travel",
+     "at": "phraseStart",
+     "via": [
+      {
+       "instance": "router",
+       "anchor": "body",
+       "dx": -480,
+       "dy": -215
+      },
+      {
+       "instance": "router",
+       "anchor": "body",
+       "dx": 0,
+       "dy": -260
+      }
+     ],
+     "durF": 32
+    },
+    {
+     "target": "snooper",
+     "do": "enter",
+     "at": {
+      "word": 0
+     }
+    },
+    {
+     "target": "pill-snoop",
+     "do": "enter",
+     "at": "keyword"
+    },
+    {
+     "target": "snooper",
+     "do": "state",
+     "state": "looking",
+     "at": {
+      "word": 3
+     }
+    },
+    {
+     "target": "ring-label",
+     "do": "enter",
+     "at": {
+      "word": 6
+     }
+    },
+    {
+     "target": "box",
+     "do": "state",
+     "state": "peek",
+     "at": {
+      "word": 8
+     }
+    },
+    {
+     "target": "pill-snoop",
+     "do": "exit",
+     "at": {
+      "word": 8
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "type": "glitch",
+     "at": {
+      "word": 8
+     },
+     "gainDb": -10
+    }
+   ]
+  },
+  {
+   "id": "b07",
+   "act": "ground",
+   "part": "context",
+   "phrase": "That lock is called TLS.",
+   "keyword": "TLS",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 850,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     },
+     "target": {
+      "x": 1330,
+      "y": 290
+     },
+     "zoom": 2.4,
+     "ease": "bible",
+     "durF": 26
+    }
+   ],
+   "actions": [
+    {
+     "target": "ring-label",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     }
+    },
+    {
+     "target": "snooper",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     }
+    },
+    {
+     "target": "box",
+     "do": "state",
+     "state": "locked",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     }
+    },
+    {
+     "target": "box",
+     "do": "pulse",
+     "at": {
+      "word": 1
+     }
+    },
+    {
+     "target": "pill-tls",
+     "do": "enter",
+     "at": "keyword"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick",
+     "at": {
+      "ref": "phraseEnd",
+      "offsetF": 10
+     },
+     "gainDb": -6
+    }
+   ],
+   "terms": [
+    {
+     "term": "TLS",
+     "pictureBeat": "b05",
+     "anchor": {
+      "instance": "box",
+      "anchor": "padlock"
+     }
+    }
+   ]
+  },
+  {
+   "id": "b08",
+   "act": "mechanism",
+   "part": "mechanism",
+   "phrase": "So who unlocks it at the other end?",
+   "keyword": "unlocks",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 600,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -8
+     },
+     "target": {
+      "x": 950,
+      "y": 900
+     },
+     "zoom": 0.7,
+     "ease": "longPan",
+     "durF": 34
+    },
+    {
+     "at": {
+      "word": 4
+     },
+     "target": {
+      "x": 900,
+      "y": 1390
+     },
+     "zoom": 0.78,
+     "ease": "bible",
+     "durF": 30
+    }
+   ],
+   "actions": [
+    {
+     "target": "pill-tls",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -8
+     }
+    },
+    {
+     "target": "box",
+     "do": "travel",
+     "at": {
+      "word": 2
+     },
+     "via": [
+      {
+       "instance": "router",
+       "anchor": "body",
+       "dx": 155,
+       "dy": 85
+      },
+      {
+       "instance": "router",
+       "anchor": "body",
+       "dx": 155,
+       "dy": 365
+      },
+      {
+       "instance": "phone",
+       "anchor": "screen",
+       "dx": 260,
+       "dy": 440
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -580,
+       "dy": -5
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -590,
+       "dy": -5
+      }
+     ],
+     "durF": 62
+    },
+    {
+     "target": "ring-unlock",
+     "do": "enter",
+     "at": {
+      "word": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "b09",
+   "act": "mechanism",
+   "part": "mechanism",
+   "phrase": "A big website isn't one computer.",
+   "keyword": "computer",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 250,
+   "camera": [
+    {
+     "at": {
+      "word": 3
+     },
+     "target": {
+      "x": 920,
+      "y": 1400
+     },
+     "zoom": 0.82,
+     "ease": "bible",
+     "durF": 24
+    }
+   ],
+   "actions": [
+    {
+     "target": "ring-unlock",
+     "do": "exit",
+     "at": "phraseStart"
+    },
+    {
+     "target": "site",
+     "do": "state",
+     "state": "split",
+     "at": {
+      "word": 3
+     }
+    },
+    {
+     "target": "bxa",
+     "do": "state",
+     "state": "locked",
+     "at": "phraseStart"
+    },
+    {
+     "target": "bxb",
+     "do": "state",
+     "state": "locked",
+     "at": "phraseStart"
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "act": "mechanism",
+   "part": "mechanism",
+   "phrase": "Everything you send hits a front server first.",
+   "keyword": "front",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 300,
+   "actions": [
+    {
+     "target": "bxa",
+     "do": "enter",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -4
+     }
+    },
+    {
+     "target": "bxb",
+     "do": "enter",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -2
+     }
+    },
+    {
+     "target": "bxa",
+     "do": "travel",
+     "at": "phraseStart",
+     "via": [
+      {
+       "instance": "phone",
+       "anchor": "screen",
+       "dx": 210,
+       "dy": 640
+      }
+     ],
+     "durF": 26
+    },
+    {
+     "target": "bxb",
+     "do": "travel",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": 4
+     },
+     "via": [
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -630,
+       "dy": 295
+      }
+     ],
+     "durF": 26
+    },
+    {
+     "target": "site",
+     "do": "pulse",
+     "at": {
+      "word": 3
+     }
+    },
+    {
+     "target": "box",
+     "do": "pulse",
+     "at": {
+      "word": 3
+     }
+    },
+    {
+     "target": "pill-front",
+     "do": "enter",
+     "at": "keyword"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick",
+     "at": {
+      "word": 3
+     },
+     "gainDb": -8
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "act": "mechanism",
+   "part": "mechanism",
+   "phrase": "That front server holds the website's key, so it unlocks your picture and hands it to the computers behind it.",
+   "keyword": "key",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 350,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     },
+     "target": {
+      "x": 640,
+      "y": 1380
+     },
+     "zoom": 1.45,
+     "ease": "bible",
+     "durF": 28
+    },
+    {
+     "at": {
+      "word": 13
+     },
+     "target": {
+      "x": 1040,
+      "y": 1440
+     },
+     "zoom": 0.9,
+     "ease": "longPan",
+     "durF": 34
+    }
+   ],
+   "actions": [
+    {
+     "target": "pill-front",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     }
+    },
+    {
+     "target": "bxa",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     }
+    },
+    {
+     "target": "bxb",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     }
+    },
+    {
+     "target": "ring-key",
+     "do": "enter",
+     "at": "keyword"
+    },
+    {
+     "target": "box",
+     "do": "state",
+     "state": "unlocked",
+     "props": {
+      "key": true,
+      "lockTone": "neutral"
+     },
+     "at": {
+      "word": 9
+     }
+    },
+    {
+     "target": "ring-key",
+     "do": "exit",
+     "at": {
+      "word": 9
+     }
+    },
+    {
+     "target": "card2",
+     "do": "enter",
+     "at": {
+      "word": 11
+     }
+    },
+    {
+     "target": "card2",
+     "do": "travel",
+     "at": {
+      "word": 13
+     },
+     "via": [
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -320,
+       "dy": -5
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -210,
+       "dy": 38
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -140,
+       "dy": 38
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -140,
+       "dy": 215
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": 103,
+       "dy": 215
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": 103,
+       "dy": -10
+      }
+     ],
+     "durF": 44
+    },
+    {
+     "target": "site",
+     "do": "state",
+     "state": "split",
+     "props": {
+      "active": 2
+     },
+     "at": {
+      "word": 13
+     }
+    },
+    {
+     "target": "box",
+     "do": "exit",
+     "at": {
+      "word": 17
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick",
+     "at": {
+      "ref": "keyword",
+      "offsetF": 4
+     },
+     "gainDb": -8
+    }
+   ]
+  },
+  {
+   "id": "b12",
+   "act": "mechanism",
+   "part": "mechanism",
+   "phrase": "That's normal. It's part of the website.",
+   "keyword": "normal",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 300,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -4
+     },
+     "target": {
+      "x": 1060,
+      "y": 1400
+     },
+     "zoom": 0.92,
+     "ease": "bible",
+     "durF": 30
+    }
+   ],
+   "actions": [
+    {
+     "target": "site",
+     "do": "state",
+     "state": "split",
+     "props": {
+      "check": true
+     },
+     "at": "keyword"
+    },
+    {
+     "target": "pill-normal",
+     "do": "enter",
+     "at": "keyword"
+    },
+    {
+     "target": "site",
+     "do": "pulse",
+     "at": {
+      "word": 6
+     }
+    }
+   ]
+  },
+  {
+   "id": "b13",
+   "act": "mechanism",
+   "part": "mechanism",
+   "phrase": "So the lock ends right there, at the front server.",
+   "keyword": "ends",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 350,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -8
+     },
+     "target": {
+      "x": 780,
+      "y": 900
+     },
+     "zoom": 0.6,
+     "ease": "longPan",
+     "durF": 30
+    }
+   ],
+   "actions": [
+    {
+     "target": "pill-normal",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -8
+     }
+    },
+    {
+     "target": "site",
+     "do": "state",
+     "state": "split",
+     "props": {
+      "active": 0
+     },
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -8
+     }
+    },
+    {
+     "target": "trace-lock",
+     "do": "enter",
+     "at": {
+      "word": 2
+     }
+    },
+    {
+     "target": "fig-lock",
+     "do": "enter",
+     "at": {
+      "word": 2
+     }
+    },
+    {
+     "target": "lock-end",
+     "do": "enter",
+     "at": {
+      "word": 2
+     }
+    },
+    {
+     "target": "lock-end",
+     "do": "state",
+     "state": "open",
+     "at": "keyword"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick",
+     "at": "keyword",
+     "gainDb": -8
+    }
+   ]
+  },
+  {
+   "id": "b14",
+   "act": "mechanism",
+   "part": "mechanism",
+   "phrase": "That's why it's called TLS termination.",
+   "keyword": "termination",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 900,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     },
+     "target": {
+      "x": 800,
+      "y": 1250
+     },
+     "zoom": 1.1,
+     "ease": "bible",
+     "durF": 26
+    }
+   ],
+   "actions": [
+    {
+     "target": "trace-lock",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     }
+    },
+    {
+     "target": "pill-term",
+     "do": "enter",
+     "at": {
+      "word": 3
+     }
+    },
+    {
+     "target": "bx1",
+     "do": "state",
+     "state": "locked",
+     "at": "phraseStart"
+    },
+    {
+     "target": "bx2",
+     "do": "state",
+     "state": "locked",
+     "at": "phraseStart"
+    },
+    {
+     "target": "bx3",
+     "do": "state",
+     "state": "locked",
+     "at": "phraseStart"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "thud",
+     "at": {
+      "ref": "phraseEnd",
+      "offsetF": 10
+     },
+     "gainDb": -6
+    }
+   ],
+   "terms": [
+    {
+     "term": "TLS termination",
+     "pictureBeat": "b13",
+     "anchor": {
+      "instance": "lock-end",
+      "anchor": "lock"
+     }
+    }
+   ]
+  },
+  {
+   "id": "b15",
+   "act": "why",
+   "part": "stakes",
+   "phrase": "Why unlock it at the front?",
+   "keyword": "front",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 400,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -4
+     },
+     "target": {
+      "x": 900,
+      "y": 1390
+     },
+     "zoom": 0.78,
+     "ease": "bible",
+     "durF": 26
+    }
+   ],
+   "actions": [
+    {
+     "target": "pill-term",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -4
+     }
+    },
+    {
+     "target": "fig-lock",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -4
+     }
+    },
+    {
+     "target": "lock-end",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -4
+     }
+    },
+    {
+     "target": "bx1",
+     "do": "enter",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": 2
+     }
+    },
+    {
+     "target": "bx2",
+     "do": "enter",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": 6
+     }
+    },
+    {
+     "target": "bx3",
+     "do": "enter",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": 10
+     }
+    },
+    {
+     "target": "ring-front",
+     "do": "enter",
+     "at": "keyword"
+    }
+   ]
+  },
+  {
+   "id": "b16",
+   "act": "why",
+   "part": "stakes",
+   "phrase": "Unlocking takes work, so the front server does it for everyone, and the computers behind it don't have to.",
+   "keyword": "work",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 500,
+   "camera": [
+    {
+     "at": "phraseStart",
+     "target": {
+      "x": 760,
+      "y": 1400
+     },
+     "zoom": 1.15,
+     "ease": "bible",
+     "durF": 26
+    },
+    {
+     "at": {
+      "word": 11
+     },
+     "target": {
+      "x": 1060,
+      "y": 1400
+     },
+     "zoom": 0.92,
+     "ease": "longPan",
+     "durF": 26
+    }
+   ],
+   "actions": [
+    {
+     "target": "ring-front",
+     "do": "exit",
+     "at": "phraseStart"
+    },
+    {
+     "target": "site",
+     "do": "state",
+     "state": "split",
+     "props": {
+      "meters": true,
+      "frontLoad": 0.85,
+      "backLoad": 0.15,
+      "active": 0
+     },
+     "at": {
+      "word": 0
+     }
+    },
+    {
+     "target": "bx1",
+     "do": "travel",
+     "at": {
+      "word": 0
+     },
+     "via": [
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -320,
+       "dy": -5
+      }
+     ],
+     "durF": 12
+    },
+    {
+     "target": "bx1",
+     "do": "exit",
+     "at": {
+      "word": 2
+     }
+    },
+    {
+     "target": "pill-work",
+     "do": "enter",
+     "at": "keyword"
+    },
+    {
+     "target": "bx2",
+     "do": "travel",
+     "at": {
+      "word": 3
+     },
+     "via": [
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -320,
+       "dy": -5
+      }
+     ],
+     "durF": 12
+    },
+    {
+     "target": "bx2",
+     "do": "exit",
+     "at": {
+      "word": 6
+     }
+    },
+    {
+     "target": "bx3",
+     "do": "travel",
+     "at": {
+      "word": 7
+     },
+     "via": [
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -320,
+       "dy": -5
+      }
+     ],
+     "durF": 12
+    },
+    {
+     "target": "bx3",
+     "do": "exit",
+     "at": {
+      "word": 10
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick",
+     "at": {
+      "word": 7
+     },
+     "gainDb": -10
+    },
+    {
+     "type": "tick",
+     "at": {
+      "word": 10
+     },
+     "gainDb": -10
+    }
+   ]
+  },
+  {
+   "id": "b17",
+   "act": "tradeoff",
+   "part": "twist",
+   "phrase": "The catch? Past the front server, your picture can travel on unlocked, inside the website.",
+   "keyword": "unlocked",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 350,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     },
+     "target": {
+      "x": 1200,
+      "y": 1480
+     },
+     "zoom": 1.25,
+     "ease": "bible",
+     "durF": 30
+    },
+    {
+     "at": {
+      "word": 9
+     },
+     "target": {
+      "x": 1300,
+      "y": 1480
+     },
+     "zoom": 1.3,
+     "ease": "bible",
+     "durF": 40
+    }
+   ],
+   "actions": [
+    {
+     "target": "pill-work",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -6
+     }
+    },
+    {
+     "target": "site",
+     "do": "state",
+     "state": "split",
+     "props": {
+      "meters": false,
+      "active": 4
+     },
+     "at": {
+      "word": 9
+     }
+    },
+    {
+     "target": "card2",
+     "do": "travel",
+     "at": {
+      "word": 9
+     },
+     "via": [
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": 103,
+       "dy": 215
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": 390,
+       "dy": 215
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": 390,
+       "dy": -10
+      }
+     ],
+     "durF": 40
+    },
+    {
+     "target": "pill-unlocked",
+     "do": "enter",
+     "at": "keyword"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": {
+      "word": 9
+     },
+     "gainDb": -10
+    }
+   ]
+  },
+  {
+   "id": "b18",
+   "act": "tradeoff",
+   "part": "twist",
+   "phrase": "Some websites lock it again in there. Some don't.",
+   "keyword": "again",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 850,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -4
+     },
+     "target": {
+      "x": 1080,
+      "y": 1460
+     },
+     "zoom": 1,
+     "ease": "bible",
+     "durF": 26
+    }
+   ],
+   "actions": [
+    {
+     "target": "pill-unlocked",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -4
+     }
+    },
+    {
+     "target": "relock",
+     "do": "enter",
+     "at": {
+      "word": 2
+     }
+    },
+    {
+     "target": "pill-again",
+     "do": "enter",
+     "at": "keyword"
+    },
+    {
+     "target": "card3",
+     "do": "enter",
+     "at": {
+      "word": 7
+     }
+    },
+    {
+     "target": "pill-again",
+     "do": "exit",
+     "at": {
+      "word": 7
+     }
+    },
+    {
+     "target": "card3",
+     "do": "travel",
+     "at": {
+      "word": 7
+     },
+     "via": [
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -140,
+       "dy": 38
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -140,
+       "dy": 215
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": 247,
+       "dy": 215
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": 247,
+       "dy": -10
+      }
+     ],
+     "durF": 30
+    },
+    {
+     "target": "pill-dont",
+     "do": "enter",
+     "at": {
+      "word": 7
+     }
+    },
+    {
+     "target": "site",
+     "do": "state",
+     "state": "split",
+     "props": {
+      "active": 3
+     },
+     "at": {
+      "word": 7
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick",
+     "at": {
+      "ref": "keyword",
+      "offsetF": 2
+     },
+     "gainDb": -8
+    }
+   ]
+  },
+  {
+   "id": "b19",
+   "act": "payoff",
+   "part": "closure",
+   "phrase": "So that little 's'? It stands for secure.",
+   "keyword": "secure",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 500,
+   "camera": [
+    {
+     "at": "phraseStart",
+     "target": {
+      "instance": "phone",
+      "anchor": "urlbar.schemeS"
+     },
+     "zoom": 4,
+     "transition": "hardCut"
+    }
+   ],
+   "actions": [
+    {
+     "target": "pill-dont",
+     "do": "exit",
+     "at": "phraseStart"
+    },
+    {
+     "target": "relock",
+     "do": "exit",
+     "at": "phraseStart"
+    },
+    {
+     "target": "card2",
+     "do": "exit",
+     "at": "phraseStart"
+    },
+    {
+     "target": "card3",
+     "do": "exit",
+     "at": "phraseStart"
+    },
+    {
+     "target": "phone",
+     "do": "state",
+     "state": "idle",
+     "props": {
+      "photo": "cat-photo@1"
+     },
+     "at": "phraseStart"
+    },
+    {
+     "target": "ring-s3",
+     "do": "enter",
+     "at": {
+      "word": 3
+     }
+    },
+    {
+     "target": "pill-secure",
+     "do": "enter",
+     "at": "keyword"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick",
+     "at": {
+      "word": 3
+     },
+     "gainDb": -6
+    }
+   ]
+  },
+  {
+   "id": "b20",
+   "act": "payoff",
+   "part": "closure",
+   "phrase": "It locks your picture from your phone to the website's front server.",
+   "keyword": "locks",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 250,
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -15
+     },
+     "target": {
+      "x": 780,
+      "y": 900
+     },
+     "zoom": 0.6,
+     "ease": "longPan",
+     "durF": 45
+    }
+   ],
+   "actions": [
+    {
+     "target": "ring-s3",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -15
+     }
+    },
+    {
+     "target": "pill-secure",
+     "do": "exit",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -15
+     }
+    },
+    {
+     "target": "site",
+     "do": "state",
+     "state": "split",
+     "props": {
+      "active": 0
+     },
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": -15
+     }
+    },
+    {
+     "target": "box2",
+     "do": "enter",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": 4
+     }
+    },
+    {
+     "target": "phone",
+     "do": "state",
+     "state": "idle",
+     "props": {
+      "photo": "none"
+     },
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": 4
+     }
+    },
+    {
+     "target": "box2",
+     "do": "state",
+     "state": "locked",
+     "at": "keyword"
+    },
+    {
+     "target": "trace-lock2",
+     "do": "enter",
+     "at": {
+      "word": 6
+     }
+    },
+    {
+     "target": "box2",
+     "do": "travel",
+     "at": {
+      "word": 4
+     },
+     "via": [
+      {
+       "instance": "phone",
+       "anchor": "screen",
+       "dx": 530,
+       "dy": -60
+      },
+      {
+       "instance": "router",
+       "anchor": "body",
+       "dx": 155,
+       "dy": 85
+      },
+      {
+       "instance": "router",
+       "anchor": "body",
+       "dx": 155,
+       "dy": 365
+      },
+      {
+       "instance": "phone",
+       "anchor": "screen",
+       "dx": 260,
+       "dy": 440
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -580,
+       "dy": -5
+      },
+      {
+       "instance": "site",
+       "anchor": "website",
+       "dx": -590,
+       "dy": -5
+      }
+     ],
+     "durF": 54
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": {
+      "word": 4
+     },
+     "gainDb": -10
+    }
+   ]
+  },
+  {
+   "id": "b21",
+   "act": "payoff",
+   "part": "closure",
+   "phrase": "After that, it's up to the website.",
+   "keyword": "website",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 700,
+   "actions": [
+    {
+     "target": "box2",
+     "do": "state",
+     "state": "unlocked",
+     "props": {
+      "lockTone": "neutral"
+     },
+     "at": {
+      "word": 0
+     }
+    },
+    {
+     "target": "trace-lock2",
+     "do": "exit",
+     "at": {
+      "word": 2
+     }
+    },
+    {
+     "target": "pill-up",
+     "do": "enter",
+     "at": {
+      "word": 3
+     }
+    },
+    {
+     "target": "site",
+     "do": "pulse",
+     "at": "keyword"
+    },
+    {
+     "target": "box2",
+     "do": "exit",
+     "at": {
+      "ref": "phraseEnd",
+      "offsetF": 6
+     }
+    }
+   ],
+   "camera": [
+    {
+     "at": {
+      "ref": "phraseEnd",
+      "offsetF": 4
+     },
+     "target": {
+      "x": 900,
+      "y": 1200
+     },
+     "zoom": 0.72,
+     "ease": "bible",
+     "durF": 18
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tick",
+     "at": {
+      "ref": "phraseEnd",
+      "offsetF": 12
+     },
+     "gainDb": -8
+    }
+   ]
+  },
+  {
+   "id": "b22",
+   "act": "cta",
+   "part": "cta",
+   "phrase": "Send this to someone who trusts that little 's'.",
+   "keyword": "s",
+   "keywordColor": "accent",
+   "rate": "+8%",
+   "pauseAfterMs": 0,
+   "camera": [
+    {
+     "at": "phraseStart",
+     "target": {
+      "x": 456,
+      "y": 560
+     },
+     "zoom": 1,
+     "transition": "hardCut"
+    }
+   ],
+   "actions": [
+    {
+     "target": "pill-up",
+     "do": "exit",
+     "at": "phraseStart"
+    },
+    {
+     "target": "wifi",
+     "do": "exit",
+     "at": "phraseStart"
+    },
+    {
+     "target": "fig-route",
+     "do": "exit",
+     "at": "phraseStart"
+    },
+    {
+     "target": "site",
+     "do": "exit",
+     "at": "phraseStart"
+    },
+    {
+     "target": "phone2",
+     "do": "enter",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": 2
+     }
+    },
+    {
+     "target": "ring-s4",
+     "do": "enter",
+     "at": {
+      "ref": "phraseStart",
+      "offsetF": 3
+     }
+    },
+    {
+     "target": "card-cta",
+     "do": "enter",
+     "at": {
+      "word": 0
+     }
+    },
+    {
+     "target": "card-cta",
+     "do": "travel",
+     "at": {
+      "word": 1
+     },
+     "via": [
+      {
+       "instance": "phone",
+       "anchor": "screen",
+       "dx": 250,
+       "dy": -180
+      },
+      {
+       "instance": "phone",
+       "anchor": "screen",
+       "dx": 516,
+       "dy": -26
+      }
+     ],
+     "durF": 24
+    },
+    {
+     "target": "phone2",
+     "do": "state",
+     "state": "idle",
+     "props": {
+      "screen": "post"
+     },
+     "at": {
+      "word": 5
+     }
+    },
+    {
+     "target": "card-cta",
+     "do": "exit",
+     "at": {
+      "word": 5
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": {
+      "word": 1
+     },
+     "gainDb": -10
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "beat": "b01",
+  "at": {
+   "ref": "keyword",
+   "offsetF": 20
+  }
+ }
+}

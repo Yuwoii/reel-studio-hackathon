@@ -1,0 +1,83 @@
+{
+  "id": "snooper",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Snooper with magnifier (drawn person)",
+  "depicts": "A drawn person in a hood holding a magnifying glass up to peek at passing data.",
+  "tags": [
+    "snooper",
+    "eavesdropper",
+    "attacker",
+    "spy",
+    "person",
+    "magnifier",
+    "privacy"
+  ],
+  "families": [
+    "security",
+    "network"
+  ],
+  "component": "Snooper",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-11-02",
+    "modified": false,
+    "changes": "source: remotion/v3/components/Snooper.tsx (meta src/v3/components-meta/Snooper.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic design, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "snooper": {
+      "label": "a snooper",
+      "physical": "anyone on the way who tries to look (on the Wi-Fi, a router, a cable)",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "r": 0.5
+    },
+    "head": {
+      "label": "the snooper's head",
+      "physical": "the person looking",
+      "at": {
+        "x": 0.56,
+        "y": 0.313
+      },
+      "r": 0.1955
+    },
+    "eye": {
+      "label": "the snooper's eye",
+      "physical": "where they look",
+      "at": {
+        "x": 0.26,
+        "y": 0.313
+      },
+      "r": 0.05
+    },
+    "magnifier": {
+      "label": "the magnifying glass",
+      "physical": "trying to read what passes by",
+      "at": {
+        "x": 0.26,
+        "y": 0.313
+      },
+      "r": 0.168
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": [
+    "a generic drawn figure, not a real person"
+  ]
+}

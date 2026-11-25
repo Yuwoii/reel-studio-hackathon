@@ -1,0 +1,173 @@
+{
+  "id": "skin-ppg",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Wrist skin cross-section under a watch (drawn)",
+  "depicts": "Drawn side cut of the wrist under a smartwatch: skin, tiny vessels that swell per heartbeat, green light going in and back to the sensor.",
+  "tags": [
+    "heart-rate",
+    "ppg",
+    "optical-sensor",
+    "smartwatch",
+    "skin",
+    "blood-vessels",
+    "green-light",
+    "pulse",
+    "wrist",
+    "fitness-tracker"
+  ],
+  "families": [
+    "science"
+  ],
+  "component": "SkinPPG",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-11-03",
+    "modified": false,
+    "changes": "source: remotion/v3/components/SkinPPG.tsx (meta src/v3/components-meta/SkinPPG.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic watch, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "watch": {
+      "label": "the watch",
+      "physical": "the watch on the wrist, seen cut through from the side",
+      "at": {
+        "x": 0.5,
+        "y": 0.1466
+      },
+      "r": 0.2444
+    },
+    "led.left": {
+      "label": "a green LED",
+      "physical": "shines green light into the skin (flashes hundreds of times a second)",
+      "at": {
+        "x": 0.4111,
+        "y": 0.2534
+      },
+      "r": 0.02
+    },
+    "led.right": {
+      "label": "a green LED",
+      "physical": "shines green light into the skin (flashes hundreds of times a second)",
+      "at": {
+        "x": 0.5889,
+        "y": 0.2534
+      },
+      "r": 0.02
+    },
+    "leds": {
+      "label": "the green LEDs",
+      "physical": "both LEDs on the underside of the watch",
+      "at": {
+        "x": 0.5,
+        "y": 0.2534
+      },
+      "r": 0.1111
+    },
+    "sensor": {
+      "label": "the light sensor",
+      "physical": "photodiode: measures how much green light comes back",
+      "at": {
+        "x": 0.5,
+        "y": 0.2534
+      },
+      "r": 0.0222
+    },
+    "skin": {
+      "label": "your skin",
+      "physical": "the skin surface under the watch",
+      "at": {
+        "x": 0.5,
+        "y": 0.2586
+      },
+      "r": 0.3333
+    },
+    "vessels": {
+      "label": "tiny blood vessels",
+      "physical": "vessels in the skin that fill with blood on every heartbeat",
+      "at": {
+        "x": 0.5,
+        "y": 0.4698
+      },
+      "r": 0.3778
+    },
+    "vessel": {
+      "label": "a tiny blood vessel",
+      "physical": "swells with blood on each heartbeat",
+      "at": {
+        "x": 0.5,
+        "y": 0.4828
+      },
+      "r": 0.0444
+    },
+    "light.in": {
+      "label": "green light going in",
+      "physical": "LED light entering the skin",
+      "at": {
+        "x": 0.4175,
+        "y": 0.3949
+      },
+      "r": 0.0444
+    },
+    "light.back": {
+      "label": "green light coming back",
+      "physical": "the light that reaches the sensor: less of it while the vessels are full",
+      "at": {
+        "x": 0.4911,
+        "y": 0.3952
+      },
+      "r": 0.0444
+    },
+    "trace": {
+      "label": "the reading",
+      "physical": "how much light comes back, over the last few seconds",
+      "at": {
+        "x": 0.5,
+        "y": 0.8793
+      },
+      "r": 0.2222
+    },
+    "trace.now": {
+      "label": "the latest reading",
+      "physical": "the newest point of the trace",
+      "at": {
+        "x": 0.9556,
+        "y": 0.8931
+      },
+      "r": 0.0444
+    },
+    "gap": {
+      "label": "the gap",
+      "physical": "a loose strap lifts the watch off the skin",
+      "at": {
+        "x": 0.5,
+        "y": 0.2379
+      },
+      "r": 0.0667
+    },
+    "ambient": {
+      "label": "room light",
+      "physical": "outside light leaking in under the watch",
+      "at": {
+        "x": 0.1333,
+        "y": 0.2034
+      },
+      "r": 0.0667
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": []
+}

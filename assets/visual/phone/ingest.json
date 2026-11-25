@@ -1,0 +1,48 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "phone",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "Phone",
+    "title": "Generic smartphone (drawn)",
+    "depicts": "A drawn smartphone showing a log-in form, a web page, or a blank screen.",
+    "tags": [
+      "phone",
+      "smartphone",
+      "mobile",
+      "login",
+      "password",
+      "screen",
+      "app"
+    ],
+    "families": [
+      "security",
+      "network"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-10-31",
+      "modified": false,
+      "changes": "source: remotion/v3/components/Phone.tsx (meta src/v3/components-meta/Phone.ts)"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic design, no product marks (D1 #2d)"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": []
+  }
+}

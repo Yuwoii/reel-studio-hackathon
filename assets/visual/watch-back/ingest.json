@@ -1,0 +1,51 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "watch-back",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "WatchBack",
+    "title": "Generic smartwatch underside (drawn)",
+    "depicts": "A drawn smartwatch back: round sensor window, two green LEDs and four light sensors.",
+    "tags": [
+      "watch",
+      "smartwatch",
+      "sensor",
+      "heart-rate",
+      "ppg",
+      "led",
+      "wrist",
+      "optical"
+    ],
+    "families": [
+      "science"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-10-31",
+      "modified": false,
+      "changes": "source: remotion/v3/components/WatchBack.tsx (meta src/v3/components-meta/WatchBack.ts)"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic design, no product marks (D1 #2d)"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": [
+      "illustrative LED/sensor layout, not a specific product",
+      "LEDs glow steadily when measuring; only the returned light dips per heartbeat"
+    ]
+  }
+}

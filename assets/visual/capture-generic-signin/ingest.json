@@ -1,0 +1,121 @@
+{
+  "source": {
+    "type": "capture",
+    "page": "page.html",
+    "file": "source/signin-960x1136.png",
+    "viewport": {
+      "w": 960,
+      "h": 1136,
+      "dpr": 2
+    },
+    "colorScheme": "dark",
+    "selectors": {
+      "h1": "h1",
+      "email": "#email",
+      "password": "#password",
+      "button": "button",
+      "form": "form",
+      "mark": ".mark"
+    }
+  },
+  "treat": {
+    "preset": "capture-dark@1"
+  },
+  "captureAnchors": {
+    "heading": {
+      "sel": "h1",
+      "label": "the page heading",
+      "physical": "the page title: Sign in"
+    },
+    "field.email": {
+      "sel": "email",
+      "label": "the email box",
+      "physical": "where you type your email address"
+    },
+    "field.password": {
+      "sel": "password",
+      "label": "the password box",
+      "physical": "where you type your password (shown as dots); HTTPS seals it on the way"
+    },
+    "button": {
+      "sel": "button",
+      "label": "the sign-in button",
+      "physical": "sends what you typed to the site"
+    },
+    "form": {
+      "sel": "form",
+      "label": "the sign-in form",
+      "physical": "the email and password you send to the site"
+    },
+    "logo": {
+      "sel": "mark",
+      "label": "the site name",
+      "physical": "the (made-up) site's name, Example"
+    }
+  },
+  "manifest": {
+    "id": "capture-generic-signin",
+    "version": 1,
+    "kind": "capture",
+    "sourceClass": "c",
+    "title": "Generic sign-in page (own neutral page, captured)",
+    "depicts": "A generic dark sign-in page for 'Example': heading, email box, password dots and a Sign in button. Our own page, no real site.",
+    "tags": [
+      "web",
+      "page",
+      "website",
+      "browser",
+      "login",
+      "sign-in",
+      "password",
+      "form",
+      "https",
+      "capture"
+    ],
+    "families": [
+      "security",
+      "network"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (own page assets/visual/capture-generic-signin/page.html, Inter OFL)",
+      "retrieved": "2026-10-31",
+      "modified": false
+    },
+    "provenance": "screen-capture",
+    "provenanceNote": "a Playwright capture (Remotion chrome-headless-shell) of our own page.html via file:// \u2014 not a live site",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": []
+    },
+    "people": false,
+    "review": {
+      "people": {
+        "by": "W3a agent",
+        "date": "2026-10-31",
+        "file": "plate.png",
+        "result": "pass",
+        "note": "form page, no people"
+      },
+      "brandMarks": {
+        "by": "W3a agent",
+        "date": "2026-10-31",
+        "file": "plate.png",
+        "result": "pass",
+        "note": "generic 'Example' wordmark (RFC 2606 name) and a grey square; no real brand"
+      }
+    },
+    "anchors": {},
+    "defaultAnchor": "field.password",
+    "treatment": {
+      "preset": "capture-dark@1",
+      "extra": "960x1136 CSS px at 2x = the BrowserWindow page area"
+    },
+    "caveats": [
+      "a made-up site: never name a real company for it",
+      "the email shown is the reserved example.com domain"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "phone",
+  "version": 1,
+  "kind": "device",
+  "sourceClass": "a",
+  "title": "Generic smartphone (drawn)",
+  "depicts": "A drawn smartphone showing a log-in form, a web page, or a blank screen.",
+  "tags": [
+    "phone",
+    "smartphone",
+    "mobile",
+    "login",
+    "password",
+    "screen",
+    "app"
+  ],
+  "families": [
+    "security",
+    "network"
+  ],
+  "component": "Phone",
+  "licence": {
+    "id": "own-work",
+    "author": "Reel Studio (in-house illustration)",
+    "retrieved": "2026-10-31",
+    "modified": false,
+    "changes": "source: remotion/v3/components/Phone.tsx (meta src/v3/components-meta/Phone.ts)"
+  },
+  "provenance": "hand-illustration",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "none-present",
+    "removed": [],
+    "masks": [],
+    "notes": "generic design, no product marks (D1 #2d)"
+  },
+  "people": false,
+  "review": {},
+  "anchors": {
+    "screen": {
+      "label": "the phone screen",
+      "physical": "the display",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "r": 0.4545
+    },
+    "notch": {
+      "label": "the top of the phone",
+      "physical": "camera notch",
+      "at": {
+        "x": 0.5,
+        "y": 0.067
+      },
+      "r": 0.1455
+    },
+    "field.user": {
+      "label": "the name field",
+      "physical": "where you type your user name",
+      "at": {
+        "x": 0.5,
+        "y": 0.3659
+      },
+      "r": 0.3864
+    },
+    "field.password": {
+      "label": "the password field",
+      "physical": "where you type your password (shown as dots)",
+      "at": {
+        "x": 0.5,
+        "y": 0.4932
+      },
+      "r": 0.3864
+    },
+    "button": {
+      "label": "the Log in button",
+      "physical": "sends what you typed",
+      "at": {
+        "x": 0.5,
+        "y": 0.6545
+      },
+      "r": 0.3864
+    }
+  },
+  "treatment": {
+    "preset": "none"
+  },
+  "caveats": []
+}

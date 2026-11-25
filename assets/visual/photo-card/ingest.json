@@ -1,0 +1,52 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "photo-card",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "PhotoCard",
+    "title": "Photo card (drawn card, real photo as content)",
+    "depicts": "A small drawn card carrying a photo as content (default the cat picture); can turn into scrambled characters.",
+    "tags": [
+      "photo",
+      "picture",
+      "card",
+      "cat",
+      "post",
+      "content",
+      "scrambled"
+    ],
+    "families": [
+      "security",
+      "network",
+      "data"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-11-02",
+      "modified": false,
+      "changes": "source: remotion/v3/components/PhotoCard.tsx (meta src/v3/components-meta/PhotoCard.ts)"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic design, no product marks (D1 #2d)"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": [
+      "the photo inside is a real CC0 photo (cat-photo@1): content only, never a backdrop",
+      "scrambled = what an outsider sees of encrypted data; not literal characters"
+    ]
+  }
+}

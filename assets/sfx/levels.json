@@ -1,0 +1,27 @@
+{
+  "tick": {
+    "file": "tick.wav",
+    "peak_dbfs": -1,
+    "event_lufs_mmax": -19.8
+  },
+  "whoosh": {
+    "file": "whoosh.wav",
+    "peak_dbfs": -1,
+    "event_lufs_mmax": -9.9
+  },
+  "glitch": {
+    "file": "glitch.wav",
+    "peak_dbfs": -1,
+    "event_lufs_mmax": -8.5
+  },
+  "thud": {
+    "file": "thud.wav",
+    "peak_dbfs": -1,
+    "event_lufs_mmax": -12.5
+  },
+  "chatter": {
+    "file": "chatter.wav",
+    "peak_dbfs": -1,
+    "event_lufs_mmax": -12.9
+  }
+}

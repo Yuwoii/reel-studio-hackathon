@@ -1,0 +1,52 @@
+{
+  "source": {
+    "type": "none"
+  },
+  "manifest": {
+    "id": "leaf-section",
+    "version": 1,
+    "kind": "device",
+    "sourceClass": "a",
+    "component": "LeafSection",
+    "title": "Leaf / cactus stem cross-section with a pore (drawn)",
+    "depicts": "Drawn leaf / cactus-stem cross-section: a pore between guard cells, CO2 in, water vapour out; C3 tall cells, C4 rings round a vein, CAM night store.",
+    "tags": [
+      "plant",
+      "leaf",
+      "pore",
+      "stomata",
+      "stoma",
+      "photosynthesis",
+      "c3",
+      "c4",
+      "cam",
+      "cactus",
+      "carbon-dioxide",
+      "water"
+    ],
+    "families": [
+      "science"
+    ],
+    "licence": {
+      "id": "own-work",
+      "author": "Reel Studio (in-house illustration)",
+      "retrieved": "2026-11-10",
+      "modified": false,
+      "changes": "source: remotion/v3/components/LeafSection.tsx (meta src/v3/components-meta/LeafSection.ts); a generic textbook-style leaf section drawn in-house, not traced from any figure"
+    },
+    "provenance": "hand-illustration",
+    "brandMarks": {
+      "inFile": [],
+      "handling": "none-present",
+      "removed": [],
+      "masks": [],
+      "notes": "generic botanical illustration, no marks"
+    },
+    "people": false,
+    "anchors": {},
+    "treatment": {
+      "preset": "none"
+    },
+    "caveats": []
+  }
+}

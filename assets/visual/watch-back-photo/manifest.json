@@ -1,0 +1,170 @@
+{
+  "id": "watch-back-photo",
+  "version": 2,
+  "kind": "photo",
+  "sourceClass": "d",
+  "title": "Smartwatch underside (photo, marks masked)",
+  "depicts": "The real back of a smartwatch on a dark background: a round sensor window with four lenses, the case and the crown.",
+  "tags": [
+    "watch",
+    "smartwatch",
+    "sensor",
+    "heart-rate",
+    "ppg",
+    "led",
+    "wrist",
+    "optical"
+  ],
+  "families": [
+    "science"
+  ],
+  "file": {
+    "path": "plate.jpg",
+    "w": 1620,
+    "h": 1620,
+    "bytes": 136633,
+    "sha256": "768b9a4ac2463a1bdc9ee34657cd526b27d49b64c5c706e8c86a9c9174a23261"
+  },
+  "licence": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "author": "Fletcher",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apple_Watch_Series_3_Sensors.jpg",
+    "retrieved": "2026-10-29",
+    "attribution": "Photo: Fletcher, CC BY 4.0, via Wikimedia Commons (modified)",
+    "modified": true,
+    "changes": "engraved ring text and logo removed (case texture filled in), darkened, desaturated, light backdrop keyed to dark grey, scaled to 1620 px",
+    "sourceSha256": "7fca61f00fc4e6bc6da61e5e39e4a6d8ce417d915eb57bab37e0a0d7b4505c10"
+  },
+  "provenance": "photograph",
+  "brandMarks": {
+    "inFile": [],
+    "handling": "baked-mask",
+    "removed": [
+      "Apple logo",
+      "WATCH SERIES 3 engraving",
+      "case engraving text ring"
+    ],
+    "masks": [
+      {
+        "covers": [
+          "Apple logo",
+          "WATCH SERIES 3 engraving",
+          "case engraving text ring"
+        ],
+        "shape": {
+          "kind": "annulus",
+          "cx": 0.505,
+          "cy": 0.4725,
+          "rIn": 0.257,
+          "rOut": 0.305
+        },
+        "fill": "radial"
+      }
+    ],
+    "notes": "Mask baked at source resolution before any crop/scale (D1 #2a); the product shape (case + crown) stays, which D1 #2d allows for this masked photo only."
+  },
+  "people": false,
+  "review": {
+    "people": {
+      "by": "W3a agent",
+      "date": "2026-10-31",
+      "file": "plate.jpg",
+      "result": "pass",
+      "note": "object photo on a plain backdrop; no person, face or reflection"
+    },
+    "brandMarks": {
+      "by": "W3a agent",
+      "date": "2026-10-31",
+      "file": "plate.jpg",
+      "result": "pass",
+      "note": "viewed plate.jpg full frame and a 2x crop of the ring: no logo, no letters left; see research/v3/W3a/brandcheck-watch-back-photo.jpg"
+    }
+  },
+  "anchors": {
+    "sensorWindow": {
+      "label": "the sensor window",
+      "physical": "round glass window over the optical heart sensor",
+      "at": {
+        "x": 0.505,
+        "y": 0.4725
+      },
+      "r": 0.25
+    },
+    "lensCluster": {
+      "label": "the lights and sensors",
+      "physical": "the four lenses together: green LEDs and light sensors sit under them",
+      "at": {
+        "x": 0.4998,
+        "y": 0.4602
+      },
+      "r": 0.135
+    },
+    "lens.top": {
+      "label": "a lens",
+      "physical": "one of four lenses (an LED or a light sensor under it; which is not identified)",
+      "at": {
+        "x": 0.4994,
+        "y": 0.3818
+      },
+      "r": 0.043
+    },
+    "lens.left": {
+      "label": "a lens",
+      "physical": "one of four lenses (an LED or a light sensor under it; which is not identified)",
+      "at": {
+        "x": 0.3802,
+        "y": 0.4627
+      },
+      "r": 0.043
+    },
+    "lens.right": {
+      "label": "a lens",
+      "physical": "one of four lenses (an LED or a light sensor under it; which is not identified)",
+      "at": {
+        "x": 0.6191,
+        "y": 0.458
+      },
+      "r": 0.043
+    },
+    "lens.bottom": {
+      "label": "a lens",
+      "physical": "one of four lenses (an LED or a light sensor under it; which is not identified)",
+      "at": {
+        "x": 0.5003,
+        "y": 0.5383
+      },
+      "r": 0.043
+    },
+    "crown": {
+      "label": "the crown",
+      "physical": "the side dial of the watch",
+      "at": {
+        "x": 0.1475,
+        "y": 0.318
+      },
+      "r": 0.05
+    }
+  },
+  "safeCrop": {
+    "x0": 0.1,
+    "y0": 0.08,
+    "x1": 0.9,
+    "y1": 0.86
+  },
+  "defaultAnchor": "sensorWindow",
+  "treatment": {
+    "preset": "dark-photo-strong@1",
+    "extra": "annulus brand mask baked first; backdrop key: bright pixels connected to the image border (flood fill), outside r 0.30 w"
+  },
+  "tone": {
+    "meanLuma": 0.142,
+    "p99Luma": 0.58,
+    "meanSat": 0.101
+  },
+  "caveats": [
+    "LEDs are UNLIT in the photo: any green light is a drawn, labelled annotation (Glow), allowed by D1 #2e",
+    "which lens is an LED and which a light sensor is not identified: never label one specific lens 'LED'",
+    "a real product (case shape) with its brand engraving removed: do not name the brand"
+  ]
+}

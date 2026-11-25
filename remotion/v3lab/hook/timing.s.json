@@ -1,0 +1,220 @@
+{
+ "variant": "s",
+ "voice": "en-US-AndrewNeural",
+ "leadMs": 600,
+ "audioMs": 14450.0,
+ "durationF": 450,
+ "source": "research/v3/proof/hook/tools/make_timing.py from pace_tts.py WordBoundary events",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "Ever wondered what the S in https means?",
+   "rate": "-8%",
+   "pauseAfterMs": 800,
+   "keywordIndex": 4,
+   "keywordColor": "accent",
+   "words": [
+    {
+     "text": "Ever",
+     "startMs": 600,
+     "endMs": 796.1
+    },
+    {
+     "text": "wondered",
+     "startMs": 809.7,
+     "endMs": 1135.7
+    },
+    {
+     "text": "what",
+     "startMs": 1149.3,
+     "endMs": 1285.2
+    },
+    {
+     "text": "the",
+     "startMs": 1298.8,
+     "endMs": 1407.5
+    },
+    {
+     "text": "S",
+     "startMs": 1421.1,
+     "endMs": 1774.3
+    },
+    {
+     "text": "in",
+     "startMs": 1787.9,
+     "endMs": 1910.2
+    },
+    {
+     "text": "https",
+     "startMs": 1923.8,
+     "endMs": 2807.0
+    },
+    {
+     "text": "means?",
+     "startMs": 2820.5,
+     "endMs": 3282.5
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "text": "You'd think your stuff stays sealed the whole way.",
+   "rate": "-14%",
+   "pauseAfterMs": 400,
+   "keywordIndex": 5,
+   "keywordColor": "accent",
+   "words": [
+    {
+     "text": "You'd",
+     "startMs": 4160.0,
+     "endMs": 4310.7
+    },
+    {
+     "text": "think",
+     "startMs": 4325.2,
+     "endMs": 4543.3
+    },
+    {
+     "text": "your",
+     "startMs": 4557.8,
+     "endMs": 4688.6
+    },
+    {
+     "text": "stuff",
+     "startMs": 4703.1,
+     "endMs": 4993.8
+    },
+    {
+     "text": "stays",
+     "startMs": 5008.4,
+     "endMs": 5488.0
+    },
+    {
+     "text": "sealed",
+     "startMs": 5633.4,
+     "endMs": 5953.1
+    },
+    {
+     "text": "the",
+     "startMs": 5967.7,
+     "endMs": 6025.8
+    },
+    {
+     "text": "whole",
+     "startMs": 6040.3,
+     "endMs": 6272.9
+    },
+    {
+     "text": "way.",
+     "startMs": 6287.5,
+     "endMs": 6549.1
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "text": "Not always.",
+   "rate": "-8%",
+   "pauseAfterMs": 900,
+   "keywordIndex": 1,
+   "keywordColor": "danger",
+   "words": [
+    {
+     "text": "Not",
+     "startMs": 7090.0,
+     "endMs": 7204.6
+    },
+    {
+     "text": "always.",
+     "startMs": 7218.2,
+     "endMs": 7693.7
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "text": "When you log in, your password hops through Wi-Fi, routers and cables you don't own.",
+   "rate": "-12%",
+   "pauseAfterMs": 0,
+   "keywordIndex": 5,
+   "keywordColor": "accent",
+   "words": [
+    {
+     "text": "When",
+     "startMs": 8680.0,
+     "endMs": 8777.2
+    },
+    {
+     "text": "you",
+     "startMs": 8791.5,
+     "endMs": 8876.7
+    },
+    {
+     "text": "log",
+     "startMs": 8890.9,
+     "endMs": 9189.2
+    },
+    {
+     "text": "in,",
+     "startMs": 9203.4,
+     "endMs": 9487.5
+    },
+    {
+     "text": "your",
+     "startMs": 9814.2,
+     "endMs": 9942.0
+    },
+    {
+     "text": "password",
+     "startMs": 9956.2,
+     "endMs": 10496.0
+    },
+    {
+     "text": "hops",
+     "startMs": 10510.2,
+     "endMs": 10922.1
+    },
+    {
+     "text": "through",
+     "startMs": 10936.4,
+     "endMs": 11121.0
+    },
+    {
+     "text": "Wi-Fi,",
+     "startMs": 11135.2,
+     "endMs": 11774.4
+    },
+    {
+     "text": "routers",
+     "startMs": 12115.3,
+     "endMs": 12612.5
+    },
+    {
+     "text": "and",
+     "startMs": 12697.7,
+     "endMs": 12868.2
+    },
+    {
+     "text": "cables",
+     "startMs": 12882.4,
+     "endMs": 13322.7
+    },
+    {
+     "text": "you",
+     "startMs": 13336.9,
+     "endMs": 13422.1
+    },
+    {
+     "text": "don't",
+     "startMs": 13436.4,
+     "endMs": 13706.2
+    },
+    {
+     "text": "own.",
+     "startMs": 13720.5,
+     "endMs": 14033.0
+    }
+   ]
+  }
+ ]
+}
